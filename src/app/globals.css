@@ -5,16 +5,46 @@
   --foreground: #171717;
 }
 
+:root {
+  --color-bg: #ffffff;
+  --color-text: #171717;
+
+  --color-rosa: #f9a8d4;
+  --color-azul: #93c5fd;
+  --color-amarillo: #fde68a;
+  --color-verde: #86efac;
+  --color-naranja: #fdba74;
+}
+
+:root {
+  --neon-rose: #ff66b3;
+  --neon-sky: #66ccff;
+  --neon-lime: #99ff66;
+  --neon-sun: #ffef66;
+  --neon-tangerine: #ff9966;
+  --neon-mint: #66ffe0;
+}
+
+:root {
+  --neon-rose: #ffbadd;
+  --neon-sky: #a9e2ff;
+  --neon-lime: #c4ffa6;
+  --neon-sun: #f8ffad;
+  --neon-tangerine: #ffc99f;
+  --neon-mint: #bdfcf3;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-inter);
+  --font-caveat: var(--font-caveat);
+
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: 	#0a0a0a;
     --foreground: #ededed;
   }
 }
@@ -22,5 +52,13 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.font-inter {
+  font-family: var(--font-inter), sans-serif;
+}
+
+.font-caveat {
+  font-family: var(--font-caveat);
 }

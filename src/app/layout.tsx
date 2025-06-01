@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={`${inter.variable} ${caveat.variable}`}>
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-inter antialiased">{children}</body>
     </html>
   );
 }
