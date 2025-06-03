@@ -1,37 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-:root {
-  --color-bg: #ffffff;
-  --color-text: #171717;
-
-  --color-rosa: #f9a8d4;
-  --color-azul: #93c5fd;
-  --color-amarillo: #fde68a;
-  --color-verde: #86efac;
-  --color-naranja: #fdba74;
-}
-
-:root {
   --neon-rose: #ff66b3;
   --neon-sky: #66ccff;
   --neon-lime: #99ff66;
   --neon-sun: #ffef66;
   --neon-tangerine: #ff9966;
   --neon-mint: #66ffe0;
+  --red: #ff0000;
 }
 
 :root {
-  --neon-rose: #ffbadd;
-  --neon-sky: #a9e2ff;
-  --neon-lime: #c4ffa6;
-  --neon-sun: #f8ffad;
-  --neon-tangerine: #ffc99f;
-  --neon-mint: #bdfcf3;
+  --pastel-rose: #ffbadd;
+  --pastel-sky: #a9e2ff;
+  --pastel-lime: #c4ffa6;
+  --pastel-sun: #f8ffad;
+  --pastel-tangerine: #ffc99f;
+  --pastel-mint: #bdfcf3;
 }
 
 @theme inline {
@@ -42,11 +27,19 @@
 
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: 	#0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/*.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}*/
+
+.dark {
+  --background: #ffffff;
+  --foreground: #171717;
 }
 
 body {
@@ -61,4 +54,46 @@ body {
 
 .font-caveat {
   font-family: var(--font-caveat);
+}
+
+/* === TESTIMONIAL CARD === */
+.card-testimonial {
+  @apply rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-700 dark:bg-zinc-900;
+}
+
+/* === SMALL DATA BOX (Ej: +5000 Estudiantes) === */
+.tag-box {
+  @apply inline-block rounded-lg bg-zinc-100 px-4 py-2 text-sm font-medium text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100;
+}
+
+/* === HEADERS === */
+.hero-title {
+  @apply text-3xl md:text-4xl font-bold tracking-tighter;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold tracking-tight;
+}
+
+.section-subtitle {
+  @apply text-base md:text-lg text-zinc-500 dark:text-zinc-400;
+}
+
+.section {
+  @apply w-full px-6 py-15 md:px-10 lg:px-12;
+}
+
+
+/* Fondo de cuadrícula global */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 255, 0.07) 1px, transparent 1px);
+  background-size: 30px 30px;
+  animation: pulse 2s linear infinite;
+  pointer-events: none;
 }
