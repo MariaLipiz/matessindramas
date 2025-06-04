@@ -35,16 +35,8 @@ export function Hero() {
             
             >Menos esfuerzo. Menos tiempo de estudio. </Subrayado>
               Cero ansiedad. 
-             <Subrayado 
-            type="circle" 
-            colorLight="#66ccff" 
-            colorDark="#66ccff"
-            animationDelay={2500} 
-            animationDuration={1500}
-            className="font-medium"
-            padding={6}
-            
-            > Resultados reales.</Subrayado>
+             <span 
+            className="font-medium text-black"> Resultados reales.</span>
              
             </p>
             <p className="mx-auto text-gray-700 md:text-xl">
