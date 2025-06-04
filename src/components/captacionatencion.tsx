@@ -6,26 +6,30 @@ export function CaptacionAtencion() {
         <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl xl:text-7xl">¿Esto te resulta familiar?</h2>
 
         <div className="flex gap-6 justify-center">
-          <div className="tarjeta hover:border-[var(--neon-lime)]/40  bg-[var(--neon-lime)]/20">
+          <div className="rounded-2xl border-2 border-transparent p-4 transition-all duration-300 hover:border-[var(--neon-lime)]/40  bg-[var(--neon-lime)]/20">
             <h3>Tu profe lee diapositivas sin sentido en clase o llena de pizarra de demostraciones y <span className="font-bold">no entiendes ni papa</span></h3>
           </div>
-          <div className="tarjeta hover:border-[var(--neon-sun)]/40 bg-[var(--neon-sun)]/20">
+          <div className="rounded-2xl border-2 border-transparent p-4 transition-all duration-300 hover:border-[var(--neon-sun)]/40 bg-[var(--neon-sun)]/20">
             
             <h3>Lees los enunciados de los ejercicios y <span className="font-bold">no sabes ni de que te están hablando</span></h3>
           </div>
-          <div className="tarjeta hover:border-[var(--neon-tangerine)]/40 bg-[var(--neon-tangerine)]/20">
+          <div className="rounded-2xl border-2 border-transparent p-4 transition-all duration-300 hover:border-[var(--neon-tangerine)]/40 bg-[var(--neon-tangerine)]/20">
             
             <h3><span className="font-bold">Mecanizas los ejercicios tipo</span> y te la meten doblada en el examen al cambiarte cuatro cosas</h3>
           </div>
         
         </div>
         <div className="flex gap-6 justify-center">
-          <div className=" tarjeta hover:border-[var(--neon-mint)]/40 bg-[var(--neon-mint)]/20">
+          <div className="rounded-2xl border-2 border-transparent p-4 transition-all duration-300 hover:border-[var(--neon-mint)]/40 bg-[var(--neon-mint)]/20">
             <h3>Sientes que <span className="font-bold">nunca tienes tiempo</span> para ponerte a estudiar y si lo tienes <span className="font-bold">te dispersas</span></h3>
           </div>
-          <div className=" tarjeta hover:border-[var(--neon-rose)]/40 bg-[var(--neon-rose)]/20">
+          <div className="rounded-2xl border-2 border-transparent p-4 transition-all duration-300 hover:border-[var(--neon-rose)]/40 bg-[var(--neon-rose)]/20 ">
             
             <h3><span className="font-bold">Te armas cacaos increibles</span> con el existe, el para todo, el epsilon mayor que cero y demas simbolos raros</h3>
+          </div>
+          <div className="rounded-2xl border-2 border-transparent p-4 transition-all duration-300 hover:border-[var(--neon-blue)]/40 bg-[var(--neon-blue)]/20 ">
+
+            <h3>En bachillerato hacías pleno de dieces y has llegado a la carrera de matemáticas/física/ingeniería/economía/ADE y <span className="font-bold">no haces más que suspender mates</span> </h3>
           </div>
         
         </div>

@@ -22,7 +22,7 @@ export default function ModoOscuroToggle() {
     return () => mediaQuery.removeEventListener("change", handleChange)
   }, [])
 
-  if (!mounted) return null
+  if (!mounted || (theme === "system" && systemTheme === undefined)) return null
 
   const currentTheme = theme === "system" ? systemTheme : resolvedTheme
   const isDark = currentTheme === "dark"
