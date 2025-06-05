@@ -4,21 +4,21 @@ export function Features() {
   return (
     <section id="features" className="section">
       <div className="container">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl xl:text-7xl">Olvídate de...</h2>
+        <div className="mb-16">
+          <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl xl:text-7xl">¿Como lo haremos?</h2>
           <p className=" text-gray-700 mt-4 text-lg">
-            Nuestro método elimina los mayores dolores de cabeza al estudiar matemáticas. Te lo ponemos fácil.
+            Pues eliminando tus mayores dolores de cabeza al estudiar. Así de simple.
           </p>
         </div>
 
         {/* Primera fila: 2 bloques */}
         <div className=" flex flex-col md:flex-row gap-6 justify-center mb-6">
           <div className=" rounded-2xl border-2 border-transparent hover:border-[var(--neon-rose)]/40 transition-all duration-300 p-6 bg-[var(--neon-rose)]/20">
-            <small className="text-sm font-medium text-gray-800">No saber ni por donde empezar</small>
-            <h3 className="text-xl sm:text-2xl font-semibold mb-4">No entiendes nada y los apuntes del profe son un cacao</h3>
+            <small className="text-sm font-medium text-gray-800">Aprender el lenguaje matemático</small>
+            <h3 className="text-xl sm:text-2xl font-semibold mb-4">Te enseño a leer matemáticas</h3>
             <div className="rounded-xl bg-white p-4 shadow-md transition-transform group-hover:-translate-y-1">
               <p className="text-gray-700 mb-2">
-                Te doy explicaciones paso a paso desde cero, apuntes fáciles de entender acordes a tu nivel, y todo acompañado con ejemplos y muchos dibujitos.
+              No más copiar sin entender. Vas a leer, traducir y escribir como quien aprende a hablar chino… pero con más sentido.
                 
               </p>
               {/*<Image src="/solucion-bloqueo.png" alt="explicacion clara" width={100} height={60} className="rounded-md mx-auto" />*/}
@@ -26,11 +26,11 @@ export function Features() {
           </div>
 
           <div className="rounded-2xl border-2 border-transparent hover:border-[var(--neon-sun)]/40 transition-all duration-300 p-6 bg-[var(--neon-sun)]/20">
-            <small className="text-sm font-medium text-gray-700 dark:text-gray-900">Pérder el tiempo</small>
-            <h3 className="text-xl sm:text-2xl font-semibold mb-4">Echas horas y horas estudiando y sientes que no avanzas</h3>
+            <small className="text-sm font-medium text-gray-700 dark:text-gray-900">Planning totalmente personalizado</small>
+            <h3 className="text-xl sm:text-2xl font-semibold mb-4">Te doy el mapa</h3>
             <div className="rounded-xl bg-white p-4 shadow-md  transition-transform group-hover:-translate-y-1">
               <p className="text-gray-700 mb-2">
-              Fijaremos una primera sesión para ver cuales son tus dificultades, elaborar un planning a tu medida, y después, te guiaré durante todo el proceso hasta el ansiado aprobado
+              Nada de perderte entre apuntes. Vas a saber exactamente qué es lo importante, qué puedes ignorar, y qué siempre debes saber al 100%
               </p>
               {/*<Image src="/solucion-bloqueo.png" alt="explicacion clara" width={100} height={60} className="rounded-md mx-auto" />*/}
             </div>
@@ -40,35 +40,34 @@ export function Features() {
         {/* Segunda fila: 1 bloque */}
         <div className="flex flex-col md:flex-row gap-6 justify-center mb-6">
           <div className="w-full rounded-2xl border-2 border-transparent hover:border-[var(--neon-mint)]/40 p-6 bg-[var(--neon-mint)]/20 transition-all duration-300">
-            <small className="text-sm font-medium text-gray-700 dark:text-gray-900">No ser capaz de organizarte</small>
-            <h3 className="text-xl sm:text-2xl font-semibold mb-4">Te abruma tanto que no eres capaz de planificar tu estudio de forma eficiente</h3>
+            <small className="text-sm font-medium text-gray-700 dark:text-gray-900">Apuntes entendibles hasta estando en un garito</small>
+            <h3 className="text-xl sm:text-2xl font-semibold mb-4">Te doy apuntes de verdad, hechos por mí en base a mi experiencia y a lo que sé que funciona, de esos legibles y con dibujitos</h3>
             <div className="rounded-xl bg-white p-4 shadow-md transition-transform group-hover:-translate-y-1">
               <p className="text-gray-700mb-2">
-                Prepararemos un planning personalizado y ajustado a tus necesidades para que puedas estudiar de forma eficiente, lógica y sin apuros. Y eso no es todo, durante todo el proceso llevaré un seguimiento de tu progreso que compartiré contigo cada semana.
+              Deja de estudiar tus asignaturas con 500 páginas sacadas del 1960. Con mis apuntes podrás estudiar hasta yendo en el metro e
+              ir haciendo ejercicios totalmente guiados acorde a tu nivel para que empieces a manejarte con soltura.
               </p>
-              {/*<Image src="/solucion-bloqueo.png" alt="explicacion clara" width={100} height={60} className="rounded-md mx-auto" />*/}
             </div>
           </div>
         </div>
 
         {/* Tercera fila: 2 bloques */}
         <div className="flex flex-col md:flex-row gap-6 justify-center">
-          <div className=" rounded-2xl border-2 border-transparent hover:border-[var(--neon-lime)]/40 transition-all duration-300 p-6 bg-[var(--neon-lime)]/20">
-            <small className="text-sm font-medium text-gray-700 dark:text-gray-900">Clases particulares y apuntes que no sirven</small>
-            <h3 className="text-xl sm:text-2xl font-semibold mb-4">No sabes a quién preguntar ni por dónde tirar</h3>
+        <div className="w-full rounded-2xl border-2 border-transparent hover:border-[var(--neon-purple)]/40 p-6 bg-[var(--neon-purple)]/20 transition-all duration-300">
+            <small className="text-sm font-medium text-gray-700 dark:text-gray-900">Entrenar, entrenar y entrenar, pero con un plan</small>
+            <h3 className="text-xl sm:text-2xl font-semibold mb-4">Te entreno como si tuvieses que perder 10kg en un mes</h3>
             <div className="rounded-xl bg-white p-4 shadow-md transition-transform group-hover:-translate-y-1">
-              <p className="text-gray-700  mb-2">
-                Fijaremos tutorías semanales para clarar todas tus dudas y darte feedback y podrás contactarme por WhatsApp o llamada mientras estudias para que no queden dudas sin resolver.
+              <p className="text-gray-700mb-2">
+              Las mates y la lógica se entrenan, no se memorizan. Aquí se practica todo hasta que resuelvas problemas incluso estando dormido (y no lo digo de coña, a mi me pasa)
               </p>
-              {/*<Image src="/solucion-bloqueo.png" alt="explicacion clara" width={100} height={60} className="rounded-md mx-auto" />*/}
             </div>
           </div>
-          <div className=" rounded-2xl border-2 border-transparent hover:border-[var(--neon-tangerine)]/40 transition-all duration-300 p-6 bg-[var(--neon-tangerine)]/20">
-            <small className="text-sm font-medium text-gray-700 dark:text-gray-900">Liarte hasta con los ejercicios mas básicos</small>
-            <h3 className="text-xl sm:text-2xl font-semibold mb-4">Lees un ejercicio y ves que no hay por donde cogerlo</h3>
+          <div className=" rounded-2xl border-2 border-transparent hover:border-[var(--neon-lime)]/40 transition-all duration-300 p-6 bg-[var(--neon-lime)]/20">
+            <small className="text-sm font-medium text-gray-700 dark:text-gray-900">Estudio en equipo</small>
+            <h3 className="text-xl sm:text-2xl font-semibold mb-4">Te acompaño de forma continua. ¿Tienes una duda? Me llamas</h3>
             <div className="rounded-xl bg-white p-4 shadow-md transition-transform group-hover:-translate-y-1">
-              <p className="text-gray-700 mb-2">
-                Tendrás acceso a ejercicios resueltos de forma clara y detallada (para que hasta tu gato los entienda), y si aun así no lo entiendes, ¡Me llamas o me escribes!
+              <p className="text-gray-700  mb-2">
+              Soporte constante por WhatsApp, Telegram o paloma mensajera, lo que prefieras. Estudiar solo, sin dirección y sin tener ni idea de lo que haces es el cóctel perfecto para el fracaso.
               </p>
               {/*<Image src="/solucion-bloqueo.png" alt="explicacion clara" width={100} height={60} className="rounded-md mx-auto" />*/}
             </div>
