@@ -25,7 +25,7 @@ export function CaptacionAtencion() {
           </div>
           <div className="rounded-2xl border-2 border-transparent p-4 transition-all duration-300 hover:border-[var(--neon-rose)]/40 bg-[var(--neon-rose)]/20 ">
             
-            <h3><span className="font-bold">Te armas cacaos increibles</span> con el existe, el para todo, el epsilon mayor que cero y demas simbolos raros</h3>
+            <h3><span className="font-bold">Te armas cacaos increibles</span> con el existe, el para todo, el epsilon mayor que cero y demás simbolos raros</h3>
           </div>
           <div className="rounded-2xl border-2 border-transparent p-4 transition-all duration-300 hover:border-[var(--neon-blue)]/40 bg-[var(--neon-blue)]/20 ">
 

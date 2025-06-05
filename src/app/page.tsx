@@ -1,7 +1,6 @@
 import { PricingTable } from "@/components/pricing-table"
 import { Features } from "@/components/features"
 import { Hero } from "@/components/hero"
-import { Testimonials } from "@/components/testimonials"
 import { About } from "@/components/about"
 import { Footer } from "@/components/footer"
 import { CaptacionAtencion } from "@/components/captacionatencion"
@@ -27,28 +26,22 @@ export default function Home() {
               </p>
 
               <p>
-              Si quieres saber <span className="font-medium text-black"> como aprobar mates sin sudor, sangre y lágrimas, </span>
+              Si quieres saber <span className="font-medium text-black"> como aprobar mates llorar, </span>
               te quedas hasta el final y ya luego me llamas para decirme que aceptas el reto, pero no respondo preguntas por telefono 
               que se puedan responder aquí. Si no te interesa lo que te voy a contar, 
               <span className="font-medium text-black"> no sigas leyendo. </span>
                 Cierras esta pestaña y adiós. Tú decides.
               
               </p>
-              <p> 
-              Si lo que esperas es algún <span className="font-medium text-black">curso milagroso,</span> la decimoquinta reinvención del método 
-              Pomodoro
-              o que te ayude a <span className="font-medium text-black">aprobar tu examen de mañana </span>
-              porque no has hecho ni el huevo todo el cuatri y te acabas de dar cuenta de que vas a suspender, 
-              pues ya definitivamente hazte un favor a ti mismo y cierra esta pestaña, 
-              cierra el navegador, apaga tu movil/tablet/pc y ponte a estudiar y a rezar a partes iguales. No trabajo con alumnos así.  
+              <p>
+                Si esperas algún <span className="font-medium text-black">curso milagroso</span>, la enésima reinvención del Pomodoro
+                o que te salve el culo con tu examen de mañana porque no has hecho ni el huevo todo el cuatri,
+                hazte un favor: cierra esta pestaña, apaga el móvil y ponte a estudiar y a rezar a partes iguales.
               </p>
               <p>
-              
-              </p>
-              <p>
-              De igual forma, si has aterrizado aquí por obra y gracia y eres de esos que quieren seguir echando horas inutiles estudiando 
-              con unos apuntes mal hechos en LaTeX y pagar segundas y terceras matrículas como un campeón, por favor, 
-              <span className="font-medium text-black"> NO SIGAS LEYENDO</span>. Esto no es para ti
+              Y si has aterrizado aquí esperando seguir estudiando con apuntes de LaTeX que no entiende ni tu profe,
+              y seguir pagando <span className="font-medium text-black">segundas y terceras matrículas como un campeón</span>, 
+              entonces te lo digo claro: <span className="font-medium text-black">NO SIGAS LEYENDO</span>. Esto no es para ti.
               </p>
               <p>
               ...
@@ -238,8 +231,8 @@ export default function Home() {
               <p>
               Cuando empecé tenía 16 años, acababa de descubrir que lo que me gustaba eran las mates
                y cobraba 8 euros la hora. Tenía cinco alumnos y pocos me tomaban en serio. Iba en bici casa 
-              por casa a dar clase, y perdía casi toda la tarde. Y seguro que diras "menuda subnormal". Pues sí, pero así se empieza, 
-              bien metido en el barro y con todo el mundo tomándote a coña. También así es como se aprende.
+              por casa a dar clase, y perdía casi toda la tarde. Y seguro que estarás pensando: ‘menuda pringada’. 
+              Y no te culpo, yo pensaría lo mismo si fuese tú. Pero así se empieza. En el barro, sin excusas, y con todo el mundo tomándote a coña.
               </p>
               <p>
               Al año siguiente subí a 10 euros y vinieron más alumnos. 
@@ -295,11 +288,17 @@ export default function Home() {
               </p>
               <p> 
               A día de hoy,
-              <span className="font-medium text-black"> cobro bastante más por una hora de mi tiempo y me vuelco completamente en cada alumno, 
-                en gran parte porque solo cojo un numero muy límitado de personas cada cuatri. </span>
+              cobro bastante más por una hora de mi tiempo y me vuelco completamente en cada alumno, 
+                en gran parte porque ahora <span className="font-medium text-black"> solo cojo un numero muy límitado de personas cada cuatri. </span>
               Me tomo muy a lo personal su aprobado. 
               Y mis alumnos están más contentos que nunca. Porque no solo <span className="font-medium text-black"> aprueban, </span>  
-              entienden y <span className="font-medium text-black"> tienen tiempo para dormir, salir de fiesta y rascarse la barriga en el sofá. </span>
+              entienden y <span className="font-medium text-black"> tienen tiempo para dormir, salir de fiesta y rascarse la barriga en el sofá. </span> 
+              </p>
+              <p>
+
+              Solo este año, 
+              <span className="font-medium text-black"> de 42 alumos que he tenido, 39 han aprobado en primera convocatoría </span>
+               y el resto en extraordinaría.
               </p>
               <p>
 
@@ -307,7 +306,11 @@ export default function Home() {
               </p>
               <p> 
               <span className="font-medium text-black"> ¿Quieres ser como esos chavales? </span> 
-              ¿O prefieres seguir comiendo mierda en la uni porque mi metodo “es demasiado caro”?
+              ¿O 
+              <span className="font-medium text-black"> prefieres seguir comiendo mierda en la uni </span>  porque mi metodo “es demasiado caro”?
+              </p>
+              <p> 
+              ... 
               </p>
               <p> 
               Si has llegado hasta aquí, probablmenete no habrás aprobado, pero al menos 
@@ -318,6 +321,55 @@ export default function Home() {
               Solo por eso, voy a romper esta tensión y 
               <span className="font-medium text-black"> te voy a sacar de dudas. </span> 
               </p>
+              <p> 
+              ...
+              </p>
+
+              <p> 
+              Veo que <span className="font-medium text-black"> tienes ganas de aprobar, </span> ¿Eh?
+              </p>
+              <p> 
+              Venga, ahora si que sí, 
+              <span className="font-medium text-black"> vamos a hablar de lo que te interesa. </span>
+              </p>
+              <p> 
+              Acompañarte a ti solo todo el cuatri (es decir, que no vengas en grupo con tus colegas) y asegurar tu aprobado tiene un precio de 
+              <span className="font-medium text-black"> 290 euros </span> al mes durante cuatro meses. Pero si quieres que lo haga
+              te tienes que comprometer a poner tu parte y a currar. Yo no trabajo con gente que quiere quedarse en el banquillo a mirar.
+               
+              </p>
+              <p> 
+              <span className="font-medium text-black"> Y sí, entran todas tus asignaturas de mates </span> 
+              (salvo las que ya he dicho que no ne gustan). 
+              </p>
+
+               <p>
+               <span className="font-medium text-black"> Y sí, te voy a dar unos apuntes de puta madre </span> 
+              con los que vas a poder entenderlo todo y vas a tener ejercicios guiados 
+              de todo. 
+              </p>
+
+              <p>
+              <span className="font-medium text-black"> Y sí, te daré feedback todo el rato </span>  para que sepas si vas bien, si vas mal, 
+              si vas de culo o si vas del reves.
+              </p>
+
+              <p>
+              <span className="font-medium text-black"> Y sí, te haré un planning de estudio full optimizado </span> para que no te me pierdas por el camino.
+              </p>
+
+              <p>
+              <span className="font-medium text-black"> Y si, tendremos tutorías semanales. </span>Pero no vengas a contarme que no 
+              hiciste nada. Esto no es el cole. Aquí vienes a mejorar y a conseguir tu aprobado, no a justificarte
+              </p>
+
+              <p>
+              <span className="font-medium text-black"> Y si, tambien me puedes llamar,
+               escribir por WhatsApp, o por Telegram o mandarme señales de humo cada vez
+                que estés estudiando y tengas la más mínima duda </span> o necesites pistas
+               para hacer los ejercicios porque te encuentras más perdido que un pulpo en un garaje.
+              </p>
+
               </section>
       <About />
       <PricingTable />
