@@ -29,7 +29,7 @@ export function CaptacionAtencion() {
           </div>
           <div className="rounded-2xl border-2 border-transparent p-4 transition-all duration-300 hover:border-[var(--neon-blue)]/40 bg-[var(--neon-blue)]/20 ">
 
-            <h3>En bachillerato hacías pleno de dieces y has llegado a la carrera de matemáticas/física/ingeniería/economía/ADE y <span className="font-bold">no haces más que suspender mates</span> </h3>
+            <h3>En bachillerato hacías pleno de dieces y has llegado a la carrera de matemáticas/física/ingeniería/economía/ADE y <span className="font-bold">no haces más que suspender por la puerta grande</span> </h3>
           </div>
         
         </div>

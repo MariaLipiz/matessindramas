@@ -18,7 +18,7 @@ export function Features() {
             <h3 className="text-xl sm:text-2xl font-semibold mb-4">Te enseño a leer matemáticas</h3>
             <div className="rounded-xl bg-white p-4 shadow-md transition-transform group-hover:-translate-y-1">
               <p className="text-gray-700 mb-2">
-              No más copiar sin entender. Vas a leer, traducir y escribir como quien aprende a hablar chino… pero con más sentido.
+              <span className="font-medium text-black"> No más copiar sin entender. </span> Vas a leer, traducir y escribir como quien aprende a hablar chino… pero con más sentido.
                 
               </p>
               {/*<Image src="/solucion-bloqueo.png" alt="explicacion clara" width={100} height={60} className="rounded-md mx-auto" />*/}
@@ -30,7 +30,7 @@ export function Features() {
             <h3 className="text-xl sm:text-2xl font-semibold mb-4">Te doy el mapa</h3>
             <div className="rounded-xl bg-white p-4 shadow-md  transition-transform group-hover:-translate-y-1">
               <p className="text-gray-700 mb-2">
-              Nada de perderte entre apuntes. Vas a saber exactamente qué es lo importante, qué puedes ignorar, y qué siempre debes saber al 100%
+              <span className="font-medium text-black"> Nada de perderte entre apuntes. </span> Vas a saber exactamente qué es lo importante, qué puedes ignorar, y qué siempre debes saber al 100%
               </p>
               {/*<Image src="/solucion-bloqueo.png" alt="explicacion clara" width={100} height={60} className="rounded-md mx-auto" />*/}
             </div>
@@ -44,7 +44,8 @@ export function Features() {
             <h3 className="text-xl sm:text-2xl font-semibold mb-4">Te doy apuntes de verdad, hechos por mí en base a mi experiencia y a lo que sé que funciona, de esos legibles y con dibujitos</h3>
             <div className="rounded-xl bg-white p-4 shadow-md transition-transform group-hover:-translate-y-1">
               <p className="text-gray-700mb-2">
-              Deja de estudiar tus asignaturas con 500 páginas sacadas del 1960. Con mis apuntes podrás estudiar hasta yendo en el metro e
+              Deja de estudiar tus asignaturas con 500 páginas sacadas del 1960. Con mis apuntes 
+              <span className="font-medium text-black"> podrás estudiar en cualquier parte </span> e
               ir haciendo ejercicios totalmente guiados acorde a tu nivel para que empieces a manejarte con soltura.
               </p>
             </div>
@@ -58,7 +59,8 @@ export function Features() {
             <h3 className="text-xl sm:text-2xl font-semibold mb-4">Te entreno como si tuvieses que perder 10kg en un mes</h3>
             <div className="rounded-xl bg-white p-4 shadow-md transition-transform group-hover:-translate-y-1">
               <p className="text-gray-700mb-2">
-              Las mates y la lógica se entrenan, no se memorizan. Aquí se practica todo hasta que resuelvas problemas incluso estando dormido (y no lo digo de coña, a mi me pasa)
+              Las mates y la lógica no se memorizan, se entrenan. ¿A que nunca has visto a nadie levantando pesas como un pro solo habiendo memorizado
+              la técnica?
               </p>
             </div>
           </div>
@@ -67,7 +69,7 @@ export function Features() {
             <h3 className="text-xl sm:text-2xl font-semibold mb-4">Te acompaño de forma continua. ¿Tienes una duda? Me llamas</h3>
             <div className="rounded-xl bg-white p-4 shadow-md transition-transform group-hover:-translate-y-1">
               <p className="text-gray-700  mb-2">
-              Soporte constante por WhatsApp, Telegram o paloma mensajera, lo que prefieras. Estudiar solo, sin dirección y sin tener ni idea de lo que haces es el cóctel perfecto para el fracaso.
+              <span className="font-medium text-black"> Soporte constante </span>   por WhatsApp, Telegram o paloma mensajera, lo que prefieras. Estudiar solo, aburrido, sin dirección y sin tener ni idea de lo que haces es el cóctel perfecto para el fracaso.
               </p>
               {/*<Image src="/solucion-bloqueo.png" alt="explicacion clara" width={100} height={60} className="rounded-md mx-auto" />*/}
             </div>
