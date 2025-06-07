@@ -5,6 +5,7 @@ import { About } from "@/components/about"
 import { Footer } from "@/components/footer"
 import { CaptacionAtencion } from "@/components/captacionatencion"
 import Image from "next/image"
+import Link from "next/link"
 export default function Home() {
   return (
     
@@ -12,27 +13,25 @@ export default function Home() {
       <Hero />
       <section className="section space-y-6 text-gray-700 md:text-lg ">
       <p>
-              Pero espera, para el carro...
-              </p>
-              <p>
-              
-               Quizás habrás leido eso de 
-               <span className="font-medium text-black"> aprobar mates con menos esfuerzo y sin echar tantas horas </span> 
-               y te habrás venido arriba. O quizás esperabas que te lo iba a poner facil para conseguir mi telefono o correo en ese botón 
-               de "empezar ahora"
-                y te iba a permitir que me frieses a preguntas y me hicieses perder mi tiempo para que al final me digas 
-                "muchas gracias, pero no me interesa"
-              
-              </p>
-
-              <p>
-              Si quieres saber <span className="font-medium text-black"> como aprobar mates llorar, </span>
-              te quedas hasta el final y ya luego me llamas para decirme que aceptas el reto, pero no respondo preguntas por telefono 
-              que se puedan responder aquí. Si no te interesa lo que te voy a contar, 
-              <span className="font-medium text-black"> no sigas leyendo. </span>
-                Cierras esta pestaña y adiós. Tú decides.
-              
-              </p>
+  Pero espera, para el carro...
+</p>
+<p>
+  Quizá has leído eso de <span className="font-medium text-black">aprobar mates sin que te de la mala </span>  
+  y se te ha subido el hype.  
+  O tal vez esperabas encontrar mi número en el botón de "empezar ahora" para freirme a preguntas como si esto fuera un consultorio gratuito.
+</p>
+<p>
+  Pues no.
+</p>
+<p>
+  No estoy aquí para convencerte.
+</p>
+<p>
+  Estoy aquí para dejarte sin excusas.
+</p>
+<p>
+  Si no tienes los huevos de leerte esto hasta el final, no pierdas el tiempo. Ni el mío ni el tuyo.
+</p>
               <p>
                 Si esperas algún <span className="font-medium text-black">curso milagroso</span>, la enésima reinvención del Pomodoro
                 o que te salve el culo con tu examen de mañana porque no has hecho ni el huevo todo el cuatri,
@@ -57,8 +56,32 @@ export default function Home() {
               Si te identificas con una, dos, tres o todas las afirmaciones anteriores, perfecto. Estás en mi team. Si no es el caso, ya sabes
               que el botón de cerrar pestaña está ahí arriba.
               </p>
+              <p>
+              
+              ...
+              </p>
+              <p>
+              Bien, como veo que no te has ido, entiendo que quizás estás frustrado porque 
+              <span className="font-medium text-black"> crees que el problema eres tú.</span>
+              </p>
+              <p>
+              O <span className="font-medium text-black"> crees que no se te dan bien las matemáticas. </span> O que no eres lo bastante bueno.
+              </p>
+              <p>
+              <span className="font-medium text-black">Echas tardes enteras estudiando para no llegar a nada.</span>
+              </p>
+              <p>
+              <span className="font-medium text-black">Vas a las revisiones y el profesor se rie de ti.</span>
+              </p>
+              <p>
+              <span className="font-medium text-black">Trabajas como nadie y no ves resultados.</span>
+              </p>
+              <p>
+              Yo he vivido eso. Te entiendo. Se por lo que estás pasando.
+              </p>
               <p>             
-              Llegados a este punto te preguntarás, "Vale,<span className="font-medium text-black"> ¿Y como hago para aprobar mates sin llorar en el intento?"</span>
+              Llegados a este punto te preguntarás, "Vale,<span className="font-medium text-black"> ¿Y como hago para aprobar mates sin llorar en el intento?". </span>
+              Sin frustrarme, sin sentirme mal conmigo mismo.
               </p>
               <p>             
               <span className="font-medium text-black">Buena pregunta</span>
@@ -78,13 +101,17 @@ export default function Home() {
                Dejar de perder horas con resúmenes
                que parecen escritos sacados de una excavación arqueológica. Y sobre todo, aprender resolviendo, no memorizando.
               </p>
+              <p>             
+              <span className="font-medium text-black"> El problema no eres tú </span> 
+              
+              </p>
 
               <p>             
               Ahora bien, si estás esperando una receta mágica te aviso: <span className="font-medium text-black">No es mágia, es un método que funciona.</span>
               </p>
               <p>             
               Y sí, <span className="font-medium text-black">funciona.</span> No porque lo diga yo (que también), sinó porque llevo 
-              muchos años ayudando a estudiantes como tú y viendo como pasan de pagar segundas mátriculas y vivir frustrados a
+              muchos años ayudando a estudiantes como tú y viendo como pasan de pagar segundas mátriculas y vivir amargados a
                <span className="font-medium text-black"> aprobar asignaturas que parecían imposibles.</span>
               
               </p>
@@ -110,18 +137,26 @@ export default function Home() {
               </p>
               <p>             
               Hace tiempo tuve durante a un curso entero a un señor de cincuenta años que iba por su quinta matrícula 
-                en esta asignatura y era la última para sacarse la carrera. El hombre estaba desesperado. Le dimos caña el primer cuatri, 
-                suspendió de nuevo, y le dije que continuaría con él lo que hiciera falta, porque de verdad que el tio se lo curraba. 
-                Le dije que esto se lo iba a sacar sí o sí.            
+                en esta asignatura.           
               </p>
               <p>             
-               <span className="font-medium text-black"> Aprobó con un 6,5 </span> en la extraordinaria. El pobre ni se lo creía.
+             <span className="font-medium text-black"> El hombre estaba desesperado.   </span>            
+              </p>
+              <p>
+              Le dimos caña el primer cuatri, 
+                suspendió de nuevo, y le dije que continuaría con él lo que hiciera falta, porque de verdad que el tio se lo curraba. 
+                </p>
+                <p>
+                Le dije que esto se lo iba a sacar sí o sí. 
+                </p>
+              <p>             
+               <span className="font-medium text-black"> Aprobó con un 6,5 </span> en la extraordinaria. Él ni se lo creía.
                         
               </p>
               <p>             
                ¿Pero sabes donde había estado el problema? 
                <span className="font-medium text-black"> En su manera de estudiar. </span> Y para mí fue 
-               evidente desde la primera tutoría con él. Su forma de abordar el temario le había servido toda la carrera, pero no para esta asignatura.
+               evidente desde la primera tutoría con él. 
                         
               </p>
 
@@ -163,162 +198,137 @@ export default function Home() {
       </section>
       <Features />
       <section className="section space-y-6 text-gray-700 md:text-lg ">
-      <p>
-        ¿Y sabes que es lo mejor?
-              </p>
-              <p>
-      <span className="font-medium text-black">Solo necesito que te comprometas a dejar de estudiar como un mono con apuntes.</span> Nada más.
-              </p>
-              <p>
-                ¿No estás dispuesto a hacerte ese favor a ti mismo? Por favor, 
-      <span className="font-medium text-black"> no sigas leyendo.</span> No perdamos tu tiempo ni el mío.
-              </p>
+      <p>¿Sabes qué es lo mejor?</p>
+
+<p>
+  <span className="font-medium text-black">
+    Que solo necesito que te comprometas a dejar de estudiar como un mono con apuntes.
+  </span>{" "}
+  Nada más. No tienes que ser un genio, ni hacer 200 ejercicios al día, ni encerrarte en la biblioteca.
+</p>
+
+<p>
+  Pero si no estás dispuesto a hacerte ese favor a ti mismo,  
+  <span className="font-medium text-black"> no sigas leyendo. </span>  
+  En serio. No perdamos tu tiempo ni el mío.
+</p>
               <p>
                ...
               </p>
               <p>
                Veo que aquí sigues. Y creo que no es casualidad.
               </p>
+              
               <p>
-               Estás con el agua al cuello, necesitas un salvavidas y quizás no lo sabes. ¿Qué asignatura te preocupa? 
+               Tienes la sensación de que no sabes nada.
               </p>
               <p>
-              <span className="font-medium text-black"> ¿Álgebra? ¿Cálculo? ¿Análisis? ¿Topología? ¿Geometría diferencial/afín/vectorial?</span>
+               Sabes que no es porque no te esfuerces… pero algo no cuadra.
               </p>
+              <p>
+               Estás con el agua al cuello, necesitas un salvavidas y aunque no lo digas en voz alta, lo sabes. 
+              </p>
+              <p>
+              Conozco esa sensación. Y lo sé, es horrible.
+              </p>
+              
               <p>
                Quizas lo que te acojona son <span className="font-medium text-black"> las medidas y las integrales. </span> 
                O los <span className="font-medium text-black"> espacios normados. </span>  
-               O el <span className="font-medium text-black"> teorema de Stokes </span> y las flechas que dan vueltas. 
-               O los <span className="font-medium text-black"> numeros primos </span> y las <span className="font-medium text-black"> congruencias. </span>
+               O la <span className="font-medium text-black"> topología. </span>  
+               O el <span className="font-medium text-black"> teorema de Stokes </span>. 
+    
               </p>
               <p>
                Sea lo que sea, me es completamente indiferente. <span className="font-medium text-black"> Este método funciona.</span>
               
               </p>
               <p>
-            
-               Mientras no me pidas que te salve el culo con estadística, modelización 
-               o algoritmos turbios de simplex podemos hablar. Son asignaturas que no me gustan y no tengo intención de perder mi tiempo 
-               con ellas.
-              </p>
-              <p>
                Ahora bien, <span className="font-medium text-black"> esto no es para todo el mundo</span>
               </p>
               <p>
-               ...
-              </p>
-              <p>
-              Si esperas algo barato o milagroso, ya te adelanto que estás en el sitio equivocado.
-              </p>
-              <p>
-              <span className="font-medium text-black"> Yo no hago descuentos.</span>
-              </p>
-              <p>
-              <span className="font-medium text-black"> No rebajo precios.</span>
-              </p>
-              <p>
-              <span className="font-medium text-black"> No hago Black Friday, promoción de Navidad o de vuelta al cole ni mierdas de esas.</span>
+  Y si te estás preguntando quién soy yo para decirte esto con tanta cara...
+</p>
+<p>
+  Déjame contarte una cosa.
+</p>
               
-              </p>
               <p>
-               Y <span className="font-medium text-black"> cuanto más sube la demanda, más sube mi tarifa</span>
-              </p>
-              <p>
-              ¿Y por qué? <span className="font-medium text-black"> Porque funciona.</span> Y llevo 10 años demostrándolo. Este método 
-              es el fruto de toda mi experiencia como estudiante y profesora.
-              Y  <span className="font-medium text-black">puedes cogerlo o no cogerlo, </span>me es indiferente.
-              </p>
-              <p>
-              Cuando empecé tenía 16 años, acababa de descubrir que lo que me gustaba eran las mates
-               y cobraba 8 euros la hora. Tenía cinco alumnos y pocos me tomaban en serio. Iba en bici casa 
-              por casa a dar clase, y perdía casi toda la tarde. Y seguro que estarás pensando: ‘menuda pringada’. 
-              Y no te culpo, yo pensaría lo mismo si fuese tú. Pero así se empieza. En el barro, sin excusas, y con todo el mundo tomándote a coña.
-              </p>
-              <p>
-              Al año siguiente subí a 10 euros y vinieron más alumnos. 
-              Como acababa de empezar el 
-              <span className="font-medium text-black"> grado en matemáticas</span> ya me tomaban un poco más en serio.
-              </p>
-              <p>
-              Tras un primer año de grado catastrófico, donde casi hago pleno de suspensos,
-               decidí cambiar el enfoque y 
-               <span className="font-medium text-black"> empecé a estudiar a mi manera.</span> Dejé de lado las técnicas de estudio
-               (las cuales, desde mi punto de vista, no valen para nada),
-                el hacer ejercicios porque sí y las tonterías de Bachillerato, y oye, funcionó.
-              </p>
-              <p>
-              Como estaba en 
-              la UNED, no tenia clases, ni profesores, ni ningún profesor particular dispuesto o capaz de pegarse con mi temario,
-               ni nadie que me respaldase, solo un libro del siglo pasado por asignatura que a veces 
-              se dejaba leer, <span className="font-medium text-black"> así que me lo monté a mi manera.</span>
-              </p>
-              <p>
-              Tras este cambio, mis notas mejoraron brutalmente. Y lo mas gracioso es que, despues de eso, practicamente toda la carrera la he aprobado 
-              en primera matrícula. 
-              Fue tan loco que en tercero de carrera me vine arriba y me matriculé de 11 asignaturas, entre las que se encontraban
-              <span className="font-medium text-black"> topología, geometría diferencial, espacios normados, estructuras 
-                algebraicas, ecuaciones diferenciales, cálculo de probabilidades,</span> y demás mounstruos 
-              y solo dejé una. Por si te lo estás preguntando, fue 
-              <span className="font-medium text-black"> análisis numérico.</span>
-              
-              </p>
-              <p>
-              Y todo esto dando entre 6 y 7 horas diarias de clase por semana y yendome todos los findes de ruta por el monte.
-              </p>
-              <p>
-              Al ver esto, decidí subir las clases a 14 euros la hora y empecé a aplicar mi mismo método con mis alumnos. Vinieron más alumnos. Después 
-              de eso empezaron a venir los primeros alumnos referidos.
-              Al año siguiente subí a 18. Y llegaban todavía más alumnos.
-              </p>
-              <p>
-              El día que pasé de 20 a 30 euros, varios antiguos alumnos se fueron porque “era carísimo”,  
-              <span className="font-medium text-black"> ¿Y sabes qué pasó?</span>
-              </p>
-              <p>
-              Dos meses después, 
-              <span className="font-medium text-black"> estaba dando 9 horas diarias de clase, incluidos los sabados, y tenía el doble de alumnos.</span>
-              </p>
-              <p> 
-              <span className="font-medium text-black"> Casi todos recomendados por otros alumnos. Todos con hambre de aprobar. Todos dispuestos a currar.</span>
-              </p>
-              <p> 
-              Y todo porque su colega o la madre de su amigo les había dicho que esto 
-              <span className="font-medium text-black"> funcionaba. </span> Que había una profe de mates de la uni que no vendía humo. 
-              Que por fin entendía la asignatura. Que aprobó sin vivir en la biblioteca y sin matarse.
-              </p>
-              <p> 
-              A día de hoy,
-              cobro bastante más por una hora de mi tiempo y me vuelco completamente en cada alumno, 
-                en gran parte porque ahora <span className="font-medium text-black"> solo cojo un numero muy límitado de personas cada cuatri. </span>
-              Me tomo muy a lo personal su aprobado. 
-              Y mis alumnos están más contentos que nunca. Porque no solo <span className="font-medium text-black"> aprueban, </span>  
-              entienden y <span className="font-medium text-black"> tienen tiempo para dormir, salir de fiesta y rascarse la barriga en el sofá. </span> 
-              </p>
-              <p>
+  Cuando empecé tenía 16 años. Daba clase por 8 € la hora.  
+  Iba en bici casa por casa y me tragaba tardes enteras solo para sacar lo justo para un café con los amigos y volver a casa hecha polvo.
+</p>
+<p>
+  Y sí, daba clases de culo. Me costaba explicar, a veces me trababa y me quedaba en blanco.  
+  Pero tenía algo que no me quitaba nadie: <span className="font-medium text-black">una obsesión enfermiza 
+    por entender las cosas y explicarlas bien.</span>
+</p>
+<p>
+  Entré en la UNED, en el grado en matemáticas. 
+</p>
+<p>
+  <span className="font-medium text-black">Sin clases. Sin profesores. Sin apuntes. </span>  
+ 
+</p>
+<p>
+  
+  Solo libros del siglo pasado y preguntas con trampa.
+</p>
+<p>
+  El primer año casi hago pleno de suspensos. Ahí fue cuando lo entendí:  
+  <span className="font-medium text-black"> el problema no eran las mates, era cómo se estudian.</span>
+</p>
+<p>
+  Me monté mi propio sistema.  
 
-              Solo este año, 
-              <span className="font-medium text-black"> de 42 alumos que he tenido, 39 han aprobado en primera convocatoría </span>
-               y el resto en extraordinaría.
-              </p>
-              <p>
+</p>
+<p>
+  
+  Dejé de hacer resúmenes, de repetir ejercicios sin sentido y de seguir consejos absurdos tipo “subraya con colores”.
+</p>
+<p>
+  Lo probé conmigo. <span className="font-medium text-black"> Y funcionó. </span>  
+  
+</p>
+<p> 
+  Me vine arriba y me metí 11 asignaturas en tercero de carrera. Aprobé 10.  
+  Y mientras tanto daba entre 6 y 7 clases diarias y me iba de ruta los findes.
+</p>
+<p>
+  Ahí <span className="font-medium text-black"> empecé a aplicarlo con mis alumnos.  Y lo mismo, los resultados fueron increibles  </span> 
+  Tanto, que empecé a subir precios.
+</p>
+<p>
+  Pasé de 14 a 18. Después a 20. Luego a 30.  
+  Muchos se fueron, pero a los pocos meses tenía <span className="font-medium text-black">el doble de alumnos. Todos recomendados por otros alumnos.</span>
+</p>
+<p>
+  Hoy cobro bastante más. Solo cojo a los que están dispuestos a currar.  
+  Y me dejo la piel con cada uno porque <span className="font-medium text-black">el aprobado de mis alumnos también es mi victoria.</span>
+</p>
+<p>
+  <span className="font-medium text-black">Y una prueba más de que mi método funciona</span>
+</p>
+<p>
+  Este año, de 42 alumnos, <span className="font-medium text-black">39 han aprobado en primera convocatoria</span>  
+  y los 3 restantes en la extraordinaria.
+</p>
 
-              No te voy a engañar, me gusta mucho ver como recogen los frutos de su esfuerzo.
-              </p>
               <p> 
               <span className="font-medium text-black"> ¿Quieres ser como esos chavales? </span> 
               ¿O 
-              <span className="font-medium text-black"> prefieres seguir comiendo mierda en la uni </span>  porque mi metodo “es demasiado caro”?
+              <span className="font-medium text-black"> prefieres seguir comiendo mierda en la uni </span> como los que se fueron 
+                porque mi metodo “es demasiado caro”?
               </p>
               <p> 
               ... 
               </p>
               <p> 
-              Si has llegado hasta aquí, probablmenete no habrás aprobado, pero al menos 
-              <span className="font-medium text-black"> ya te has ganado mi respeto.  </span> 
+              Si has llegado hasta aquí, probablemente no habrás aprobado, pero al menos 
+              <span className="font-medium text-black"> ya no eres como el resto.  </span> 
               </p>
 
               <p> 
-              Solo por eso, voy a romper esta tensión y 
+              Solo por eso, 
               <span className="font-medium text-black"> te voy a sacar de dudas. </span> 
               </p>
               <p> 
@@ -329,46 +339,192 @@ export default function Home() {
               Veo que <span className="font-medium text-black"> tienes ganas de aprobar, </span> ¿Eh?
               </p>
               <p> 
-              Venga, ahora si que sí, 
+              Se te nota.
+              </p>
+              <p> 
+              Venga, ahora si, 
               <span className="font-medium text-black"> vamos a hablar de lo que te interesa. </span>
               </p>
               <p> 
-              Acompañarte a ti solo todo el cuatri (es decir, que no vengas en grupo con tus colegas) y asegurar tu aprobado tiene un precio de 
-              <span className="font-medium text-black"> 290 euros </span> al mes durante cuatro meses. Pero si quieres que lo haga
-              te tienes que comprometer a poner tu parte y a currar. Yo no trabajo con gente que quiere quedarse en el banquillo a mirar.
+              Pero antes piensa en esto.
+              </p>
+              <p> 
+              Piensa en <span className="font-medium text-black"> lo que ya has palmado en segundas matrículas.  </span>
+              </p>
+              <p> 
+              <span className="font-medium text-black"> En los meses perdidos esforzandote como nadie. </span>
+              </p>
+              <p> 
+              En el <span className="font-medium text-black"> estrés. </span> 
+              En la <span className="font-medium text-black"> ansiedad. </span>  
+              En las noches estudiando hasta las tantas.
+              </p>
+              <p> 
+              En esa <span className="font-medium text-black"> sensación de impotencia cuando ves que no te llega la nota… </span> por una décima.
+              </p>
+              <p> 
+              <span className="font-medium text-black"> ¿Te ha salido barato eso? </span>
+              </p>
+              <p> 
+              <span className="font-medium text-black"> Seguro que no </span>
+              </p>
+              <p> 
+              Y seguro que mientras lees esto, tu cerebro ya está sacando excusas para no moverse.  
+              </p>
+              <p> 
+              Déjame adivinarlas: 
+              </p>
+              <p> 
+              "Ya estoy con otro profe, voy a esperar a ver que tal"
+              </p>
+              <p> 
+              Genial que tu profe sea un encanto. <span className="font-medium text-black"> Vuelve cuando suspendas. Si es que quedan plazas. </span>
+              </p>
+              <p> 
+              “Voy a esperar al cuatri siguiente” 
+              </p>
+              <p> 
+              Claro. Como cuando dijiste que el lunes empezabas el gym. <span className="font-medium text-black">  Y aquí estás de nuevo. 
+                Al límite. </span> 
+              </p>
+              <p> 
+              “Es que X euros me parece caro” 
+              </p>
+              <p> 
+              ¿Sabes lo que es caro? <span className="font-medium text-black">  Suspender, pagar otra matrícula, seguir 
+                sin enterarte de nada, pasarte el verano estudiando mientras tus colegas están en la playa y encima repetir la misma mierda un curso más. </span> 
+              </p>
+              <p> 
+              No me vengas con cuentos.
+              </p>
+              <p> 
+              Porque ahora te lo pongo claro.
+              </p>
+              <p> 
+              Acompañarte todo el cuatri y <span className="font-medium text-black"> asegurar tu aprobado </span> tiene un precio de 
+              <span className="font-medium text-black"> 270 euros</span>/mes durante cuatro meses. 
                
               </p>
               <p> 
-              <span className="font-medium text-black"> Y sí, entran todas tus asignaturas de mates </span> 
-              (salvo las que ya he dicho que no ne gustan). 
+              Y no, no es negociable.
+               
+              </p>
+              <p> 
+              Ni lo será.
+               
+              </p>
+              <p> 
+              Cada cuatri sube.
+               
+              </p>
+              <p> 
+              Porque no me ando con cuentos.
+               
+              </p>
+              <p> 
+              Y porque esto viene con una condición: 
+               
+              </p>
+              <p> 
+              <span className="font-medium text-black"> Garantía de aprobado. </span> 
+               
+              </p>
+              <p> 
+              ¿Tú te comprometes? Yo también.
+               
+              </p>
+              <p> 
+              Si haces todo lo pactado, estudias con mi método, 
+              vienes a las tutorías, haces los ejercicios, preguntas dudas, 
+              sigues el planning, me haces caso y aún así no apruebas…
+               
+              </p>
+              <p> 
+              <span className="font-medium text-black"> Te acompaño el tiempo que haga falta hasta que lo consigas. Sin pagar ni un euro más. </span>
+               
+              </p>
+              <p> 
+              Pero si vienes a calentar la silla o a quejarte porque no hiciste nada esa semana… esta garantía desaparece.
+               
               </p>
 
-               <p>
-               <span className="font-medium text-black"> Y sí, te voy a dar unos apuntes de puta madre </span> 
-              con los que vas a poder entenderlo todo y vas a tener ejercicios guiados 
-              de todo. 
+              <p> 
+              Yo no regalo aprobados.
+               
+              </p>
+              
+
+              <p>
+              Y no, <span className="font-medium text-black"> no cojo a todo el mundo. </span> 
+               
+              
+              </p>
+              <p>
+              <span className="font-medium text-black"> Este cuatri solo cojo a 10. </span> 
+               
+              
+              </p>
+              <p>
+              <span className="font-medium text-black"> Cuando se llene, puerta cerrada. </span>
+               
+              
+              </p>
+              <p>
+              Y <span className="font-medium text-black"> Y la siguiente vez costará más. </span> 
+               
+              
               </p>
 
               <p>
-              <span className="font-medium text-black"> Y sí, te daré feedback todo el rato </span>  para que sepas si vas bien, si vas mal, 
-              si vas de culo o si vas del reves.
+              <span className="font-medium text-black"> Porque los que entran, aprueban. </span> Punto.
               </p>
 
               <p>
-              <span className="font-medium text-black"> Y sí, te haré un planning de estudio full optimizado </span> para que no te me pierdas por el camino.
+                Así que hazte un favor y piensa en esto:
               </p>
 
               <p>
-              <span className="font-medium text-black"> Y si, tendremos tutorías semanales. </span>Pero no vengas a contarme que no 
-              hiciste nada. Esto no es el cole. Aquí vienes a mejorar y a conseguir tu aprobado, no a justificarte
+              ¿Cuánto más vas a permitir que esa asignatura te coma la vida?
               </p>
 
               <p>
-              <span className="font-medium text-black"> Y si, tambien me puedes llamar,
-               escribir por WhatsApp, o por Telegram o mandarme señales de humo cada vez
-                que estés estudiando y tengas la más mínima duda </span> o necesites pistas
-               para hacer los ejercicios porque te encuentras más perdido que un pulpo en un garaje.
+              ¿Cuántas veces más vas a pagar segundas matrículas, estudiar hasta las tantas y salir del examen con ganas de llorar?
               </p>
+              <p>
+              <span className="font-medium text-black"> Esto se acaba hoy. </span>
+              </p>
+              <p>
+              Puedes escribirme y  
+              <span className="font-medium text-black"> salir del agujero. </span>
+              </p>
+              <p>
+              O <span className="font-medium text-black"> puedes cerrar esto, seguir arrastrandote otro cuatri y venirme en enero con el mismo 3,5 de siempre.  </span> 
+              </p>
+              <p>
+              Tú decides que te sale mas caro:  
+              </p>
+              <p>
+              Pagar 270€ al mes con garantía de aprobado
+              </p>
+              <p>
+               O seguir pagando con tu tiempo, tu dignidad y tus ganas de vivir.
+              </p>
+              <p>
+              
+              <span className="font-medium text-black"> Escríbeme. Y salgamos del agujero.   </span> 
+              </p>
+
+              <a
+  href="https://wa.me/34673055115?text=QUIERO%20MI%20APROBADO."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center shadow-md rounded-full px-6 py-2 text-sm sm:text-base lg:text-lg  font-medium transition-colors
+                  bg-black text-white border border-zinc-300 hover:bg-zinc-100
+                  focus:outline-none"
+>
+  Quiero salir del agujero
+</a>
+
 
               </section>
       <About />
