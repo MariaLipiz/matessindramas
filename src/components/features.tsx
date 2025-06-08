@@ -40,8 +40,8 @@ export function Features() {
               </p>
               <p className="text-gray-700mb-2 text-lg">
               Y ahora me preguntarás "Pero María, <span className="font-medium text-black"> ¿Y si no se adaptan a mi uni y a mi temario?" </span>
-              No te rayes por eso, los apuntes te los adapto para ti, independientemente de donde sea que vengas. 
-              <span className="font-medium text-black"> No doy apuntes genéricos ni reciclados.</span> y
+              No te rayes por eso, los apuntes te los adapto para ti. 
+              <span className="font-medium text-black"> No doy apuntes genéricos.</span> Y
               <span className="font-medium text-black"> tampoco los vas a encontrar en otro sitio.</span>
               </p>
             </div>
@@ -59,7 +59,7 @@ export function Features() {
             <h3 className="text-xl sm:text-2xl font-semibold mb-4">Te entreno como si tuvieses que perder 10kg en un mes</h3>
             <div className="rounded-xl bg-white p-4 shadow-md">
               <p className="text-gray-700mb-2 text-lg">
-              Las mates y la lógica no se memorizan, 
+              Las mates no se memorizan, 
               <span className="font-medium text-black "> se entrenan. </span>
               ¿A que nunca has visto a nadie levantando pesas como un pro solo habiendose comido un manual de técnica? Pues eso, a entrenar.
               </p>

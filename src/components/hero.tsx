@@ -13,15 +13,8 @@ export function Hero() {
             animationDuration={1500}
             padding={1}
             
-            > Aprueba</Subrayado>
-            <Subrayado 
-            type="highlight" 
-            colorLight="#99ff66" 
-            colorDark="#99ff66"
-            animationDelay={500} 
-            animationDuration={1500}
-            
-            > mates</Subrayado> sin estudiar como un desgraciado, sin ansiedad y sin llorar. Así de claro.
+            > Aprueba mates </Subrayado>
+            sin estudiar como un desgraciado, sin ansiedad y sin llorar. Así de claro.
             </h1>
             <p className="mx-auto text-gray-700 md:text-xl">
             Si estás harto de estudiar como un loco, suspender y sentirte idiota, esto es para ti. <br />
@@ -33,15 +26,15 @@ export function Hero() {
               </p>
           <div className="space-x-6 mt-6">
               
-              <button
-                className="inline-flex items-center justify-center shadow-md rounded-full px-6 py-2 text-sm sm:text-base lg:text-lg font-medium transition-colors
-                  bg-black text-white hover:bg-zinc-800
-                  
-                  focus:outline-none"
-                  aria-label="Ir a la sección de servicios y precios"
-              >
-                Quiero aprobar mates sin llorar
-              </button>
+          <a
+  href="#texto"
+  className="inline-flex items-center justify-center shadow-md rounded-full px-6 py-2 text-sm sm:text-base lg:text-lg font-medium transition-colors
+    bg-black text-white hover:bg-zinc-800
+    focus:outline-none"
+  aria-label="Ir a la sección de servicios y precios"
+>
+  Quiero aprobar mates sin llorar
+</a>
 
               {/* Descubrir más */}
             </div>
