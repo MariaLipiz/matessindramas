@@ -24,7 +24,7 @@ export function Hero() {
     focus:outline-none"
   aria-label="Ir a la sección de servicios y precios"
 >
-  Quiero aprobar mates sin llorar
+  Quiero aprobar mates ya
 </a>
 
               {/* Descubrir más */}
