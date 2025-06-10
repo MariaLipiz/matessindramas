@@ -8,23 +8,28 @@ export async function POST(req: Request) {
   try {
     const { email } = await req.json();
 
-    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    console.log('👉 Email recibido:', email);
+    console.log('👉 Audience ID:', AUDIENCE_ID);
+
+    if (!email || !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) {
+      console.log('❌ Email inválido');
       return NextResponse.json({ error: 'Email inválido' }, { status: 400 });
     }
 
-    await resend.contacts.create({
+    const result = await resend.contacts.create({
       email,
       unsubscribed: false,
       audienceId: AUDIENCE_ID,
     });
 
+    console.log('✅ Contacto creado en Resend:', result);
+
     return NextResponse.json({ success: true });
   } catch (error: any) {
-    if (error.message?.includes('already exists')) {
-      return NextResponse.json({ error: 'Este email ya está suscrito' }, { status: 409 });
-    }
-
-    console.error(error);
-    return NextResponse.json({ error: 'Error interno del servidor' }, { status: 500 });
+    console.error('🔥 ERROR al crear contacto:', error);
+    return NextResponse.json(
+      { error: error.message || 'Error interno del servidor' },
+      { status: 500 }
+    );
   }
 }
