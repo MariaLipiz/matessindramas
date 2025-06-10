@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Caveat } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
-import { ThemeProvider } from "next-themes"
+import { Footer } from "@/components/Footer"
 
 const inter = Inter({
   variable: "--font-inter",
@@ -30,10 +29,10 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${inter.variable} ${caveat.variable}`}>
       <body className="font-inter antialiased">
-      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-        <Header />
+      
+        
         {children}
-        </ThemeProvider>
+       <Footer />
         </body>
     </html>
   );
