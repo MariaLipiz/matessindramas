@@ -15,7 +15,7 @@ export default function Home() {
               />
             <div className="flex flex-col">
                 <h1 className="text-2xl font-bold tracking-tighter md:text-3xl text-black"> 
-                Maria Lipiz Fernandez</h1>
+                Maria Lipiz Fernandez </h1>
                 <p>
                 Estudiar matemáticas no tiene por qué ser una tortura.
                 </p>
