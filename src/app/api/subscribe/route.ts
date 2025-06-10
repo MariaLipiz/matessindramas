@@ -11,7 +11,7 @@ export async function POST(req: Request) {
     console.log('👉 Email recibido:', email);
     console.log('👉 Audience ID:', AUDIENCE_ID);
 
-    if (!email || !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) {
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       console.log('❌ Email inválido');
       return NextResponse.json({ error: 'Email inválido' }, { status: 400 });
     }
