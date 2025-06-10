@@ -45,27 +45,36 @@ export default function NewsletterForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
+     <div className="flex gap-2">
       <input
         type="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
         placeholder="Tu email"
-        className="border p-2 rounded w-full"
+        className="border p-2 rounded-full w-100"
       />
+      <button
+        type="submit"
+        className="bg-black text-white px-4 py-2 rounded-full disabled:opacity-50"
+        disabled={status === 'loading'}
+      >
+        {status === 'loading' ? 'Suscribiendo...' : 'Suscribirse'}
+      </button>
+      </div>
 
       <label className="flex items-start gap-2 text-sm">
         <input
           type="checkbox"
           checked={accepted}
           onChange={(e) => setAccepted(e.target.checked)}
-          className="mt-1"
+          className="mt-1 bg-black"
           required
         />
         <span>
           Acepto la{' '}
           <a
-            href="/politica-de-privacidad"
+            href="/legal"
             target="_blank"
             rel="noopener noreferrer"
             className="underline text-blue-600 hover:text-blue-800"
@@ -76,13 +85,7 @@ export default function NewsletterForm() {
         </span>
       </label>
 
-      <button
-        type="submit"
-        className="bg-blue-600 text-white px-4 py-2 rounded disabled:opacity-50"
-        disabled={status === 'loading'}
-      >
-        {status === 'loading' ? 'Suscribiendo...' : 'Suscribirse'}
-      </button>
+      
 
       {message && (
         <p
