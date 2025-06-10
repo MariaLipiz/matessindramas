@@ -1,20 +1,11 @@
 
-import Subrayado from "@/components/subrayados/Subrayado"
+
 
 export function Hero() {
   return (
     <section className="section justify-center align-center text-center space-y-6 h-screen">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl xl:text-7xl">  
-            <Subrayado 
-            type="highlight" 
-            colorLight="#99ff66" 
-            colorDark="#99ff66"
-            animationDelay={400} 
-            animationDuration={1500}
-            padding={1}
-            
-            > Aprueba mates </Subrayado>
-            sin estudiar como un desgraciado, sin ansiedad y sin llorar. Así de claro.
+            Aprueba mates sin estudiar como un desgraciado, sin ansiedad y sin llorar. Así de claro.
             </h1>
             <p className="mx-auto text-gray-700 md:text-xl">
             Si estás harto de estudiar como un loco, suspender y sentirte idiota, esto es para ti. <br />

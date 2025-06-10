@@ -3,7 +3,6 @@ import { Features } from "@/components/features"
 import { Hero } from "@/components/hero"
 import { CaptacionAtencion } from "@/components/captacionatencion"
 import Image from "next/image"
-import Link from "next/link"
 export default function ApruebaMatesYa() {
   return (
     
