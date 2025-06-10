@@ -1,4 +1,5 @@
 import Image from "next/image";
+import NewsletterForm from '@/components/NewsletterForm';
 
 export default function Home() {
     return (
@@ -55,6 +56,7 @@ export default function Home() {
         <p>
         ¿Te gusta el concepto? Te apuntas abajo. ¿Prefieres pasar el dia llorando por lo cabron que es tu profesor? Con que no te apuntes basta.
         </p>
+        <NewsletterForm />
 
         <h2 className="text-4xl font-bold tracking-tighter mt-10 text-black"> 
           No apto para todos los públicos</h2>
@@ -69,6 +71,7 @@ export default function Home() {
         <p>
         Lo que cuento es mi recomendación honesta para superar un problema que no para de crecer entre los estudiantes españoles.
         </p>
+        <NewsletterForm />
         
         
   
