@@ -6,7 +6,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-start items-start md:items-center gap-4 md:gap-12">
         <Image
                 src="/images/MariaLipiz.jpg" // Ruta optimizada y formato moderno (ideal: .webp o .avif)
-                alt="Maria Lipiz Fernandez dando clase"
+                alt="María Lípiz Fernández dando clase"
                 className="rounded-full max-w-25 md:max-w-35"
                 width={1000}
                 height={1000}
@@ -15,7 +15,7 @@ export default function Home() {
               />
             <div className="flex flex-col">
                 <h1 className="text-2xl font-bold tracking-tighter md:text-3xl text-black"> 
-                Maria Lipiz Fernandez </h1>
+                María Lípiz Fernández </h1>
                 <p>
                 Estudiar matemáticas no tiene por qué ser una tortura.
                 </p>
@@ -40,12 +40,12 @@ export default function Home() {
         </p>
         <p>
         Y lograrlo sin tener que meterme horas y horas de estudio, sin comerme videos de Youtube que no me van a llevar a nada y 
-        sin tener que perder mi tiempo en buscar en libros que ni se si me van a ayudar.
+        sin tener que arrastrarme para que un profesor que pasa de mí me solucione la papeleta.
         </p>
 
         <p>
         Eso es lo que me motiva y eso es de lo que hablo cada día. De como pasé de ser un fracaso escolar y suspender casi todo en 
-        primero de matemáticas a dedicarle el mínimo tiempo posible a estudiar hasta las asignaturas mas complicadas de la carrera y asegurarme
+        primero de matemáticas a dedicarle el mínimo tiempo posible a estudiar hasta las asignaturas más complicadas de la carrera y asegurarme
         el aprobado sin ir a clase.
         </p>
 
