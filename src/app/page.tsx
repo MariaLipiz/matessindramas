@@ -3,7 +3,7 @@ import NewsletterForm from '@/components/NewsletterForm';
 
 export default function Home() {
     return (
-      <section className="section section space-y-6 text-gray-700 md:text-lg">
+      <section className="section space-y-6 text-gray-700 md:text-lg">
         <div className="flex flex-col md:flex-row justify-start items-start md:items-center gap-4 md:gap-12">
         <Image
                 src="/images/MariaLipiz.jpg" // Ruta optimizada y formato moderno (ideal: .webp o .avif)
@@ -18,7 +18,7 @@ export default function Home() {
                 <h1 className="text-2xl font-bold tracking-tighter md:text-3xl text-black"> 
                 María Lípiz Fernández </h1>
                 <p>
-                Estudiar matemáticas no tiene por qué ser una tortura.
+                Suspender matemáticas es una elección. Yo te enseño a elegir lo contrario.
                 </p>
             </div>
         </div>
@@ -47,7 +47,7 @@ export default function Home() {
         <p>
         Eso es lo que me motiva y eso es de lo que hablo cada día. De como pasé de ser un fracaso escolar y suspender casi todo en 
         primero de matemáticas a dedicarle el mínimo tiempo posible a estudiar hasta las asignaturas más complicadas de la carrera y asegurarme
-        el aprobado sin ir a clase.
+        el aprobado.
         </p>
 
         <p>
@@ -55,6 +55,39 @@ export default function Home() {
         </p>
         <p>
         ¿Te gusta el concepto? Te apuntas abajo. ¿Prefieres pasar el dia llorando por lo cabron que es tu profesor? Con que no te apuntes basta.
+        </p>
+        <NewsletterForm />
+
+        <h2 className="text-4xl font-bold tracking-tighter mt-10 text-black"> 
+        “¿Me puedes pasar info?” No.
+        </h2>
+
+        <p>
+        Todos los días alguien me escribe para pedirme ayuda, clases o que le explique “de qué va lo que hago”.
+        </p>
+        <p>
+        Y la respuesta siempre es la misma: no.
+        </p>
+        <p>
+        No agendo clases individuales por privado.
+        </p>
+        <p>
+        No respondo dudas por redes
+        </p>
+        <p>
+        No paso apuntes solo porque “no sabes por dónde empezar”
+        </p>
+        <p>
+        Todo lo que ofrezco pasa por apuntarte abajo.
+        </p>
+        <p>
+        Y si no eres capaz de estar atento a mis emails, tampoco podrás aprovechar lo que te ofrezca.
+        </p>
+        <p>
+          Así que si quieres que te ayude, <strong>empieza por demostrar que puedes hacer algo tan simple.</strong>  
+        </p>
+        <p>
+        Apúntate. Y si hay algo para ti, te lo contaré por ahí.
         </p>
         <NewsletterForm />
 

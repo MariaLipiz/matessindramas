@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.matessindramas.com
+
+# Sitemaps
+Sitemap: https://www.matessindramas.com/sitemap.xml

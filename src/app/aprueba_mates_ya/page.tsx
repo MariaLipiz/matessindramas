@@ -3,6 +3,29 @@ import { Features } from "@/components/features"
 import { Hero } from "@/components/hero"
 import { CaptacionAtencion } from "@/components/captacionatencion"
 import Image from "next/image"
+
+export const metadata = {
+  title: 'Método para aprobar matemáticas',
+  description: 'Método de estudio para aprobar mates en la uni',
+  keywords: ['como aprobar matemáticas', 'aprueba mates sin estudiar', 'aprueba mates en la uni'],
+  openGraph: {
+    title: 'Método para aprobar matemáticas',
+    description: 'Aprueba matemáticas. Método serio, cero dramas.',
+    url: 'https://www.matessindramas.com/aprueba_mates_ya',
+    siteName: 'Mates Sin Dramas',
+    images: [
+      {
+        url: 'https://www.matessindramas.com/og.jpg',
+        width: 1000,
+        height: 400,
+        alt: 'Mates Sin Dramas',
+      },
+    ],
+    locale: 'es_ES',
+    type: 'website',
+  },
+};
+
 export default function ApruebaMatesYa() {
   return (
     
@@ -472,7 +495,7 @@ export default function ApruebaMatesYa() {
               </p>
               <p> 
               Acompañarte todo el cuatri y <span className="font-medium text-black"> asegurar tu aprobado </span> tiene un precio de 
-              <span className="font-medium text-black"> 270 euros</span>/mes durante cuatro meses. 
+              <span className="font-medium text-black"> 1250 euros</span> fraccionado en 2 pagos de 625 euros. 
                
               </p>
               <p> 

@@ -1,12 +1,35 @@
 import StripeBuyButton from '@/components/SripeBuyButton'
 
+export const metadata = {
+  title: 'Aprueba mates en la uni',
+  description: 'Método de estudio para aprobar mates en la uni sin llorar',
+  keywords: ['como aprobar matemáticas', 'aprueba mates sin estudiar', 'aprueba mates en la uni'],
+  openGraph: {
+    title: 'Aprueba mates en la uni',
+    description: 'Aprueba sin llorar. Método serio, cero dramas.',
+    url: 'https://www.matessindramas.com/metodo_para_aprobar_matematicas',
+    siteName: 'Mates Sin Dramas',
+    images: [
+      {
+        url: 'https://www.matessindramas.com/og.jpg',
+        width: 1000,
+        height: 400,
+        alt: 'Mates Sin Dramas',
+      },
+    ],
+    locale: 'es_ES',
+    type: 'website',
+  },
+};
+
+
 export default function MetodoParaAprobarMatematicas() {
   return (
-    <section className="section space-y-6">
-      <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl xl:text-7xl"> 
+    <section className="section space-y-6 md:text-lg">
+      <h1 className="text-4xl font-bold text-black tracking-tighter sm:text-5xl lg:text-6xl xl:text-7xl"> 
         Aprobar mates es infinitamente más fácil, rápido y divertido cuando dejas de usar métodos de mierda.</h1>
 
-      <h2 className="mt-14 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">
+      <h2 className="mt-14 text-2xl font-bold text-black tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">
         Aprobar mates en la uni ya es suficientemente difícil como para que te pongas tú mismo más barreras de las que ya tienes.
       </h2>
 
@@ -128,7 +151,7 @@ export default function MetodoParaAprobarMatematicas() {
       </p>
 
 
-      <h2 className="mt-14 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Esto no es para 
+      <h2 className="mt-14 text-2xl font-bold text-black tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Esto no es para 
         todo el mundo</h2>
 
       <p>
@@ -155,11 +178,11 @@ export default function MetodoParaAprobarMatematicas() {
         <li>Tendrás mucho menos estrés </li>
       </ol>
 
-      <h2 className=" mt-14 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Mi método contiene 
+      <h2 className=" mt-14 text-2xl font-bold text-black tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Mi método contiene 
         cinco elementos</h2>
         
         <ol className="list-decimal pl-6">
-        <li>Reunión inicial para valuar tu caso</li>
+        <li>Reunión inicial para evaluar tu caso</li>
         <li>Planning personalizado de estudio.</li>
         <li>Apuntes digitales hechos por mí donde podrás estudiar todas las asignaturas de tu cuatri actual 
             sin querer morirte en el intento. Esto lo entrego por dos motivos: el primero, que dejes de estudiar 
@@ -171,7 +194,7 @@ export default function MetodoParaAprobarMatematicas() {
         <li>Ejercicios de todo tipo para que vayas preparado y seguro al examen. </li>
       </ol>
 
-      <h2 className="mt-14 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Algo que deberías saber</h2>
+      <h2 className="mt-14 text-2xl font-bold text-black tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Algo que deberías saber</h2>
 
       <p>
         Esto es un método para estudiar matemáticas en la uní, en el que durante cuatro meses te guiaré 
@@ -188,7 +211,7 @@ export default function MetodoParaAprobarMatematicas() {
         numérico, que no me gustan, pero igualmente el método sería válido para estas -
       </p>
 
-      <h2 className="mt-14 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Si compras</h2>
+      <h2 className="mt-14 text-2xl font-bold text-black tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Si compras</h2>
       <p>
         El método ahora lo harás a un precio total de 1250€, fraccionado en 2 pagos de 625€.
         Este precio no bajará nunca. 
@@ -201,11 +224,11 @@ export default function MetodoParaAprobarMatematicas() {
         conocer bien tu caso, saber exactamente que asignaturas quieres estudiareste cuatri y preparar todo el material necesario 
         para comenzar.
       </p>
-      <h2 className="mt-14 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Que sepas que solo…</h2>
+      <h2 className="mt-14 text-2xl font-bold text-black tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Que sepas que solo…</h2>
       <p>
         Hay 10 plazas por cuatrimestre. Si se llenan, cierro hasta el cuatrimestre siguiente.
       </p>
-      <h2 className=" mt-14 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Método para aprobar 
+      <h2 className=" mt-14 text-2xl font-bold text-black tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Método para aprobar 
         matemáticas sin llorar: 1250€</h2>
         <StripeBuyButton />
 
@@ -219,7 +242,7 @@ export default function MetodoParaAprobarMatematicas() {
         
       </p>
 
-      <h2 className=" mt-14 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Doce asignaturas aprobadas 
+      <h2 className=" mt-14 text-2xl font-bold text-black tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Doce asignaturas aprobadas 
         en un solo curso: el mayor logro de un alumno</h2>
 
       <p>
@@ -238,7 +261,7 @@ export default function MetodoParaAprobarMatematicas() {
         <li>Dos cosas que debes saber para poder resolver cualquier ejercicio aunque no tengas ni idea de por donde cogerlo.</li>
       </ul>
 
-      <h2 className=" mt-14 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Método para aprobar 
+      <h2 className=" mt-14 text-2xl font-bold text-black tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Método para aprobar 
         matemáticas sin llorar: 1250€</h2>
         <StripeBuyButton />
 
@@ -252,9 +275,9 @@ export default function MetodoParaAprobarMatematicas() {
         
       </p>
 
-      <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Preguntas frecuentes</h2>
+      <h2 className="text-2xl font-bold text-black tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Preguntas frecuentes</h2>
       
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Cómo será el método? 
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Cómo será el método? 
         ¿Qué haremos?</h3>
 
       <p>
@@ -267,7 +290,7 @@ export default function MetodoParaAprobarMatematicas() {
         vayas estudiando de manera progresiva y eficiente. Tendrás soporte ilimitado durante estos meses.
       </p>
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Es válido para 
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Es válido para 
         estudiar X asignatura?</h3>
 
       <p>
@@ -285,7 +308,7 @@ export default function MetodoParaAprobarMatematicas() {
       </ul>
 
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Esta formación es para mí?</h3>
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Esta formación es para mí?</h3>
 
       <p>
         Esta es una pregunta que solo puedes responder tú, así que si me escribes 
@@ -296,7 +319,7 @@ export default function MetodoParaAprobarMatematicas() {
         Esto no es una retahila de tips de estudio ni un manual de consejos.
       </p>
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Cuándo podré acceder 
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Cuándo podré acceder 
         a los materiales?</h3>
 
       <p>
@@ -305,21 +328,21 @@ export default function MetodoParaAprobarMatematicas() {
       </p>
 
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Cómo podré acceder 
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Cómo podré acceder 
         a los materiales?</h3>
 
       <p>
         Mediante un enlace que te enviaré al correo electrónico.
       </p>
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Durante cuánto tiempo 
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Durante cuánto tiempo 
         podré acceder a los materiales?</h3>
 
       <p>
         Podrás acceder al material durante los meses que preparemos tus asignaturas. Después, dejará de estar disponible.
       </p>
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Cuál es su precio? 
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Cuál es su precio? 
         ¿Bajará alguna vez?</h3>
 
       <p>
@@ -327,7 +350,7 @@ export default function MetodoParaAprobarMatematicas() {
         No hago ofertas ni cosas de esas, y según suba la demanda, más subirá el precio.
       </p>
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Y si me apunto a mitad de 
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Y si me apunto a mitad de 
         cuatrimestre el precio será menor?</h3>
 
       <p>
@@ -335,20 +358,20 @@ export default function MetodoParaAprobarMatematicas() {
         por lo que te recomiendo que te apuntes en septiembre o en febrero.
       </p>
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Hay plazas limitadas? </h3>
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Hay plazas limitadas? </h3>
 
       <p>
         Sí. Cada cuatrimestre acepto a 10 alumnos, y en el momento que se llene, no acepto a nadie más. 
       </p>
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Tendré soporte ilimitado?  </h3>
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Tendré soporte ilimitado?  </h3>
 
       <p>
         Sí, durante los meses que preparemos tus asignaturas podrás preguntarme dudas en cualquier 
         momento. 
       </p>
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Y que pasa si no apruebo?   </h3>
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Y que pasa si no apruebo?   </h3>
 
       <p>
         Si te apuntas al principio del cuatrimestre, haces todo lo pactado, vienes a todas las tutorias 
@@ -356,27 +379,28 @@ export default function MetodoParaAprobarMatematicas() {
         te acompaño en las asignaturas suspensas hasta que apruebes.
       </p>
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Puedo apuntarme más de un cuatrimestre si necesito ayuda con más asignaturas?    </h3>
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Puedo apuntarme más de un cuatrimestre si necesito ayuda con más asignaturas?    </h3>
 
       <p>
         Sí.
       </p>
+      
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Y si no tengo tiempo 
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Y si no tengo tiempo 
         para seguir el método?    </h3>
 
       <p>
         Entonces tienes tiempo para seguir suspendiendo.
       </p>
 
-      <h3 className="text-lg font-bold tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Y si tengo TDAH o 
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Y si tengo TDAH o 
         me cuesta concentrarme? </h3>
 
       <p>
         Soy autista. Y doy clase a mas autistas, TDAHs y gente sin foco. El método está hecho aprueba de eso.
       </p>
 
-      <h2 className=" mt-14 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Método para aprobar 
+      <h2 className=" mt-14 text-2xl font-bold text-black tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Método para aprobar 
         matemáticas sin llorar: 1250€</h2>
         <StripeBuyButton />
 

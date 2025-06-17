@@ -1,15 +1,19 @@
-"use client";
-
-import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="w-full flex items-center justify-between py-4 px-6 dark:border-gray-700">
+    <header className="w-full flex items-end justify-end px-6 lg:px-30 dark:border-gray-700">
       {/* Logo */}
       <div className="text-2xl font-bold text-foreground">
-        <Link href="/">
-          <span className="font-inter">Mates Sin Dramas</span>
-        </Link>
+        <Image
+                src="/images/Mates sin dramas Grande.png" // Ruta optimizada y formato moderno (ideal: .webp o .avif)
+                alt="Estudiantes aprobados gracias a este método"
+                width={1000}
+                height={400}
+                priority // si es una imagen above-the-fold (visible al cargar)
+                quality={100}
+                className="w-[10rem] lg:w-[13rem]" // opcional, calidad ajustable para WebP/AVIF
+              />
       </div>
     </header>
   );
