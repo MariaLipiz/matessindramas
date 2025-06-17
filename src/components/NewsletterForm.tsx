@@ -45,7 +45,7 @@ export default function NewsletterForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
-     <div className="flex gap-2">
+     <div className="flex flex-col sm:flex-row gap-2">
       <input
         type="email"
         value={email}
@@ -56,7 +56,7 @@ export default function NewsletterForm() {
       />
       <button
         type="submit"
-        className="bg-black text-white px-4 py-2 rounded-full disabled:opacity-50 hover:cursor-pointer"
+        className="bg-black text-white max-w-35 px-4 py-2 rounded-full disabled:opacity-50 hover:cursor-pointer"
         disabled={status === 'loading'}
       >
         {status === 'loading' ? 'Suscribiendo...' : 'Suscribirse'}
