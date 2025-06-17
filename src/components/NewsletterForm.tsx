@@ -52,11 +52,11 @@ export default function NewsletterForm() {
         onChange={(e) => setEmail(e.target.value)}
         required
         placeholder="Tu email"
-        className="border p-2 rounded-full w-100"
+        className="border p-2 rounded-full max-w-110"
       />
       <button
         type="submit"
-        className="bg-black text-white px-4 py-2 rounded-full disabled:opacity-50"
+        className="bg-black text-white text-md px-3 py-2 rounded-full disabled:opacity-50"
         disabled={status === 'loading'}
       >
         {status === 'loading' ? 'Suscribiendo...' : 'Suscribirse'}
