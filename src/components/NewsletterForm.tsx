@@ -52,7 +52,7 @@ export default function NewsletterForm() {
         onChange={(e) => setEmail(e.target.value)}
         required
         placeholder="Tu email"
-        className="border p-2 rounded-full max-w-60 md:max-w-110"
+        className="border p-2 rounded-full"
       />
       <button
         type="submit"
