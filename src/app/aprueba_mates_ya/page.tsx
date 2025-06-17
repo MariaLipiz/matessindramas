@@ -31,7 +31,7 @@ export default function ApruebaMatesYa() {
     
     <main className="min-h-screen bg-grid-animation">
       <Hero />
-      <section id="texto" className="section space-y-6 text-gray-700 md:text-lg ">
+      <section id="texto" className="section space-y-6 text-lg ">
       <p>
   Para el carro
 </p>

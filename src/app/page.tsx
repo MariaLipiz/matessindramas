@@ -3,7 +3,7 @@ import NewsletterForm from '@/components/NewsletterForm';
 
 export default function Home() {
     return (
-      <section className="section space-y-6 text-gray-700 md:text-lg">
+      <section className="section space-y-6 text-lg">
         <div className="flex flex-col md:flex-row justify-start items-start md:items-center gap-4 md:gap-12">
         <Image
                 src="/images/MariaLipiz.jpg" // Ruta optimizada y formato moderno (ideal: .webp o .avif)
