@@ -50,7 +50,7 @@ export default function Charlas() {
         </h2>
 
         <ul className="list-disc pl-6">
-          <li>Charlas de 20–40 minutos que no suenan a clase ni a TED Talk</li>
+          <li>Charlas de 20–60 minutos que no suenan a clase ni a TED Talk</li>
           <li>Críticas sin anestesia al sistema educativo y a los métodos de estudio basura</li>
           <li>Enfoque centrado en estudiantes de mates, física e ingenierías</li>
           <li>Tono directo, con humor y sin victimismo</li>
