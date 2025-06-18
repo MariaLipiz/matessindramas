@@ -3,6 +3,7 @@ import NewsletterForm from '@/components/NewsletterForm';
 
 export default function Home() {
     return (
+      <main>
       <section className="section space-y-6 text-lg">
         <div className="flex flex-col md:flex-row justify-start items-start md:items-center gap-4 md:gap-12">
         <Image
@@ -110,6 +111,7 @@ export default function Home() {
   
         
       </section>
+      </main>
     )
   }
   

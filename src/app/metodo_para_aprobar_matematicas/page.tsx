@@ -25,6 +25,7 @@ export const metadata = {
 
 export default function MetodoParaAprobarMatematicas() {
   return (
+    <main>
     <section className="section space-y-6 text-lg">
       <h1 className="text-4xl font-bold text-black tracking-tighter sm:text-5xl lg:text-6xl xl:text-7xl"> 
         Aprobar mates es infinitamente más fácil, rápido y divertido cuando dejas de usar métodos de mierda.</h1>
@@ -414,5 +415,6 @@ export default function MetodoParaAprobarMatematicas() {
         
       </p>
     </section>
+    </main>
   )
 }
