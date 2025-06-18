@@ -7,6 +7,9 @@ import Image from "next/image"
 export const metadata = {
   title: 'Método para aprobar matemáticas',
   description: 'Método de estudio para aprobar mates en la uni',
+  alternates: {
+    canonical: 'https://www.matessindramas.com/aprueba_mates_ya',
+  },
   keywords: ['como aprobar matemáticas', 'aprueba mates sin estudiar', 'aprueba mates en la uni'],
   openGraph: {
     title: 'Método para aprobar matemáticas',

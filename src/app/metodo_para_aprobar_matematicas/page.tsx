@@ -3,6 +3,9 @@ import StripeBuyButton from '@/components/SripeBuyButton'
 export const metadata = {
   title: 'Aprueba mates en la uni',
   description: 'Método de estudio para aprobar mates en la uni sin llorar',
+  alternates: {
+    canonical: 'https://www.matessindramas.com/metodo_para_aprobar_matematicas',
+  },
   keywords: ['como aprobar matemáticas', 'aprueba mates sin estudiar', 'aprueba mates en la uni'],
   openGraph: {
     title: 'Aprueba mates en la uni',
