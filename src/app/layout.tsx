@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mates Sin Dramas | Aprueba Matemáticas sin llorar",
     description:
-      "Aprueba mates en la universidad sin llorar. Métodos serios, cero dramas.",
+      "Aprueba mates en la universidad sin llorar.",
     url: "https://matessindramas.com",
     siteName: "Mates Sin Dramas",
     images: [
@@ -74,6 +74,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${inter.variable} ${caveat.variable}`}>
       <head>
+      <link rel="icon" href="/favicon.ico" />
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
