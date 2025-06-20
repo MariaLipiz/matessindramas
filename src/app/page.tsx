@@ -52,7 +52,7 @@ export default function Home() {
         </p>
 
         <p>
-        <strong>Cada día escribo un correo con una idea para aprobar más y aprender mejor.</strong>
+        <strong>Cada semana escribo un correo con una idea para aprobar más y aprender mejor.</strong>
         </p>
         <p>
         ¿Te gusta el concepto? Te apuntas abajo. ¿Prefieres pasar el dia llorando por lo cabron que es tu profesor? Con que no te apuntes basta.
