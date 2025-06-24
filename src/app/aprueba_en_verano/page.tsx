@@ -385,6 +385,14 @@ export default function MetodoParaAprobarMatematicas() {
         No hago ofertas ni cosas de esas, y según suba la demanda, más subirá el precio.
       </p>
 
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿El precio variará
+        en función del número de asignaturas?
+      </h3>
+
+      <p>
+        No, independientemente de si tienes 1 o 4 asignatuas el precio de mi ayuda es el mismo.
+      </p>
+
       <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Y si me apunto a mitad de 
         verano el precio será menor?</h3>
 
