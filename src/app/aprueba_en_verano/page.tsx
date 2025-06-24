@@ -191,14 +191,14 @@ export default function MetodoParaAprobarMatematicas() {
         <ol className="list-decimal pl-6">
         <li>Reunión inicial para evaluar tu caso</li>
         <li>Planning personalizado de estudio.</li>
-        <li>Apuntes digitales hechos por mí donde podrás estudiar todas las asignaturas que tengas que recuperar este verano 
+        <li>Apuntes digitales con ejercicios hechos por mí donde podrás estudiar todas las asignaturas que tengas que recuperar este verano 
             sin querer morirte en el intento. Esto lo entrego por dos motivos: el primero, que dejes de estudiar 
             con apuntes de mierda. El segundo, poder aplicar correctamente mi método.</li>
         <li>Una tutoría semanal online de seguimiento donde te diré si vas bien, si vas mal, 
             o si vas de culo, y te iré explicando todos los puntos. </li>
         <li>Soporte ilimitado durante todo el verano hasta el examen. Podrás escribirme por WhatsApp, email o 
             paloma mensajera cualquier duda que te surja mientras estudias. </li>
-        <li>Ejercicios de todo tipo para que vayas preparado y seguro al examen. </li>
+        
       </ol>
 
       <h2 className="mt-14 text-2xl font-bold text-black tracking-tighter sm:text-3xl lg:text-4xl xl:text-5xl">Algo que deberías saber</h2>
