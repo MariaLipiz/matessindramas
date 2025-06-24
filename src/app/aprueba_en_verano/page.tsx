@@ -2,16 +2,16 @@ import StripeBuyButton from '@/components/StripeButtonVerano'
 import Image from "next/image"
 
 export const metadata = {
-  title: 'Aprueba mates en la uni',
-  description: 'Método de estudio para aprobar mates en la uni sin llorar',
+  title: 'Aprueba mates en verano',
+  description: 'Método de estudio para aprobar mates en verano si llorar',
   alternates: {
-    canonical: 'https://www.matessindramas.com/metodo_para_aprobar_matematicas',
+    canonical: 'https://www.matessindramas.com/aprueba_en_verano',
   },
-  keywords: ['como aprobar matemáticas', 'aprueba mates sin estudiar', 'aprueba mates en la uni'],
+  keywords: ['como aprobar matemáticas', 'aprueba mates sin estudiar', 'Aprueba mates en verano', 'aprueba mates en la uni'],
   openGraph: {
-    title: 'Aprueba mates en la uni',
-    description: 'Aprueba sin llorar. Método serio, cero dramas.',
-    url: 'https://www.matessindramas.com/metodo_para_aprobar_matematicas',
+    title: 'Aprueba mates en verano',
+    description: 'Método de estudio para aprobar mates en verano si llorar.',
+    url: 'https://www.matessindramas.com/aprueba_en_verano',
     siteName: 'Mates Sin Dramas',
     images: [
       {
