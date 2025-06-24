@@ -338,6 +338,14 @@ export default function MetodoParaAprobarMatematicas() {
         Esto no es una retahila de tips de estudio ni un manual de consejos.
       </p>
 
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Puedo apuntarme también si solo quiero
+        repasar o prepararme para el próximo curso?</h3>
+
+      <p>
+        Sí.
+      </p>
+      
+
       <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Cuándo podré acceder 
         a los materiales?</h3>
 
@@ -359,6 +367,14 @@ export default function MetodoParaAprobarMatematicas() {
 
       <p>
         Podrás acceder al material durante los meses que preparemos tus asignaturas. Después, dejará de estar disponible.
+      </p>
+
+      <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Podré estudiar
+        si me voy de vacaciones?
+      </h3>
+
+      <p>
+        Podrás llevar tus apuntes en tu movil/tablet y estudiar y conectarte conmigo desde una playa en Cancún, si eso es lo que te mola.
       </p>
 
       <h3 className="text-lg font-bold text-black tracking-tighter sm:text-xl lg:text-2xl xl:text-3xl">¿Cuál es su precio? 
