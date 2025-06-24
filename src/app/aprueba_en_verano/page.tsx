@@ -1,4 +1,4 @@
-import StripeBuyButton from '@/components/SripeBuyButton'
+import StripeBuyButton from '@/components/StripeButtonVerano'
 import Image from "next/image"
 
 export const metadata = {
