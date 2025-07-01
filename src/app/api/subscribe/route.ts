@@ -39,7 +39,7 @@ const welcomeEmail = await resend.emails.send({
   to: email,
   subject: 'Aquí no hay truco',
   html: `
-  <div style="font-size: 1.125rem;">
+  <div style="font-size: 1.125rem; line-height: 1.6; color: #0E0E0E; background-color: #ffffff;">
     <p>Te doy la bienvenida y te cuento algo.</p>
 
     <p>Después de 10 años impartiendo clases particulares, vendiendo cursos, trabajando con academias grandes y pequeñas y ayudando 
