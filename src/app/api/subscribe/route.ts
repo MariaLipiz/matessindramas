@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server'
 export async function POST(req: Request) {
   const RESEND_API_KEY = process.env.RESEND_API_KEY_ADMIN
   const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID
-  const FROM_EMAIL = 'Maria de Mates Sin Dramas <tucorreo@tudominio.com>' // ⚠️ Debe estar verificado en Resend
+  const FROM_EMAIL = 'María Lípiz <marialipiz@matessindramas.com>' // ⚠️ Debe estar verificado en Resend
 
   if (!RESEND_API_KEY || !AUDIENCE_ID || !FROM_EMAIL) {
     console.error('❌ Faltan variables de entorno necesarias')
