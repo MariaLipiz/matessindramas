@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 export function Features() {
   return (
     <section id="features" className="section">

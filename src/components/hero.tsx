@@ -1,6 +1,3 @@
-
-
-
 export function Hero() {
   return (
     <section className="section justify-center align-center text-center space-y-6 h-screen">
