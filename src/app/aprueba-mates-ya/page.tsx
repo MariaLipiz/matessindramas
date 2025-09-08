@@ -342,7 +342,7 @@ export default function LeadFormPage() {
       </ul>
 
       <p>
-          Entre las <strong> personas que menos aprovechan esta ayuda y que más partido le pueden sacar </strong> están:
+          Entre las <strong> personas que menos aprovechan esta ayuda y que menos partido le pueden sacar </strong> están:
         </p>
         <ul className="list-disc pl-6 space-y-2">
         <li>Estudiantes que busquen milagros o que les salve el culo a última hora</li>
