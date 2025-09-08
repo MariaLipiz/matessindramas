@@ -82,7 +82,7 @@ body {
 }
 
 .section {
-  @apply w-full px-6 py-15 md:px-10 lg:px-12;
+  @apply w-full px-6 pt-8 md:px-10 lg:px-12;
 }
 
 .tarjeta {
@@ -90,7 +90,7 @@ body {
 }
 
 
-/* Fondo de cuadrícula global */
+/* Fondo de cuadrícula global
 body::before {
   content: '';
   position: fixed;
@@ -103,3 +103,4 @@ body::before {
   animation: pulse 2s linear infinite;
   pointer-events: none;
 }
+*/

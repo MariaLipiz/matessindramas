@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="w-full flex items-end justify-end px-6 lg:px-30 dark:border-gray-700">
+    <header className="w-full flex items-end justify-end px-6 lg:px-30">
       {/* Logo */}
       <div className="text-2xl font-bold text-foreground">
         <Image

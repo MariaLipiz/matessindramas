@@ -1,101 +1,79 @@
 'use client';
 
-import { useState } from 'react';
+import Script from 'next/script';
 
-export default function NewsletterForm() {
-  const [email, setEmail] = useState('');
-  const [accepted, setAccepted] = useState(false);
-  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
-  const [message, setMessage] = useState('');
+type Props = {
+  formId?: string;          // por defecto el tuyo
+  uid?: string;             // por defecto el tuyo
+  buttonText?: string;
+  placeholder?: string;
+  className?: string;       // clases extra (Tailwind, etc.)
+};
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+export default function CkSubscribeButton({
+  formId = '8491576',
+  uid = '05e8fa3695',
+  buttonText = 'Suscribirme',
+  placeholder = 'Tu email',
+  className = 'max-w-120',
+}: Props) {
+  const action = `https://app.kit.com/forms/${formId}/subscriptions`;
 
-    if (!accepted) {
-      setStatus('error');
-      setMessage('Debes aceptar la política de privacidad para suscribirte.');
-      return;
-    }
-
-    setStatus('loading');
-
-    try {
-      const response = await fetch('/api/subscribe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email })
-      });
-
-      const data = await response.json();
-
-      if (response.ok) {
-        setStatus('success');
-        setMessage('¡Te has suscrito exitosamente!');
-        setEmail('');
-        setAccepted(false);
-      } else {
-        setStatus('error');
-        setMessage(data.error || 'Error al suscribirse');
-      }
-    } catch (error) {
-      setStatus('error');
-      setMessage('Error de conexión');
-    }
-  };
+  // Opciones mínimas para mensaje de éxito (puedes ampliarlas si quieres redirección)
+  const dataOptions = JSON.stringify({
+    settings: {
+      after_subscribe: {
+        action: 'message',
+        success_message: '¡Hecho! Revisa tu email para confirmar.',
+        redirect_url: '',
+      },
+    },
+    version: '5',
+  });
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
-     <div className="flex flex-col sm:flex-row gap-2">
-      <input
-        type="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        required
-        placeholder="Tu email"
-        className="border p-2 rounded-full"
-      />
-      <button
-        type="submit"
-        className="bg-black text-white max-w-35 px-4 py-2 rounded-full disabled:opacity-50 hover:cursor-pointer"
-        disabled={status === 'loading'}
+    <div className={className}>
+      {/* Carga del script de ConvertKit que gestiona la UX/AJAX */}
+      <Script src="https://f.convertkit.com/ckjs/ck.5.js" strategy="afterInteractive" />
+
+      <form
+        action={action}
+        method="post"
+        className="seva-form formkit-form"
+        data-sv-form={formId}
+        data-uid={uid}
+        data-format="inline"
+        data-version="5"
+        data-options={dataOptions}
       >
-        {status === 'loading' ? 'Suscribiendo...' : 'Suscribirse'}
-      </button>
-      </div>
+        <ul className="formkit-alert formkit-alert-error" data-element="errors" data-group="alert" />
 
-      <label className="flex items-start gap-2 text-sm">
-        <input
-          type="checkbox"
-          checked={accepted}
-          onChange={(e) => setAccepted(e.target.checked)}
-          className="mt-1 bg-black"
-          required
-        />
-        <span>
-          Acepto la{' '}
-          <a
-            href="/legal"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline text-blue-600 hover:text-blue-800"
+        <div className="formkit-fields flex gap-2" data-element="fields">
+          <div className="formkit-field flex-1">
+            <input
+              className="formkit-input w-full rounded-md border border-neutral-300 px-3 py-2"
+              type="email"
+              name="email_address"
+              required
+              aria-label="Email"
+              placeholder={placeholder}
+            />
+          </div>
+
+          <button
+            data-element="submit"
+            className="formkit-submit inline-flex items-center justify-center rounded-md px-4 py-2 font-medium text-black bg-[#b0e4fc] cursor-pointer"
           >
-            política de privacidad
-          </a>
-          .
-        </span>
-      </label>
+            <div className="formkit-spinner"><div></div><div></div><div></div></div>
+            <span>{buttonText}</span>
+          </button>
+        </div>
 
-      
-
-      {message && (
-        <p
-          className={`text-sm ${
-            status === 'success' ? 'text-green-600' : 'text-red-600'
-          }`}
-        >
-          {message}
-        </p>
-      )}
-    </form>
+        {/* Quita el “Built with Kit” */}
+        <div className="formkit-powered-by-convertkit-container hidden">
+          <a data-element="powered-by" className="formkit-powered-by-convertkit" data-variant="dark" />
+        </div>
+      </form>
+    </div>
   );
 }

@@ -1,6 +1,11 @@
-export default function Home() {
-    return (
-      
+import Head from 'next/head';
+
+export default function Legal() {
+  return (
+    <>
+      <Head>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
       <main className="min-h-screen bg-grid-animation">
         <section id="texto" className="section space-y-6 text-gray-700 md:text-lg ">
         <p>
@@ -217,5 +222,6 @@ La Política de Privacidad fue actualizada el día 05 de diciembre de 2018 para 
   
                 </section>
       </main>
-    )
-  }
+      </>
+  );
+}
