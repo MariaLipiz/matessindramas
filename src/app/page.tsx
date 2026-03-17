@@ -11,7 +11,7 @@ export default function Home() {
         <span className="bg-[#b0e4fc]">matemáticas</span> te trae por la calle de la amargura?
         </h1>
         <h2 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl">
-         Tranquilo, no es culpa tuya.
+         No es culpa tuya. Quédate, que te voy a explicar porque. 
         </h2> 
       </section>
 
@@ -33,7 +33,7 @@ export default function Home() {
         O no viene porque no tienes profesor.
         </p>
         <p>
-        Los exámenes son una ida de olla y aparecen cosas que ni has visto ni nadie te había dicho que podían caer.
+        Los exámenes son una ida de olla y aparecen cosas que ni has visto ni nadie sabe de donde han salido. 
         </p>
         <p>
         De la nada, te piden inventarte cosas y sacarte resultados de la manga que no sabías ni que existían. 
