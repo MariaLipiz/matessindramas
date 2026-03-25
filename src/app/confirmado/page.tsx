@@ -1,7 +1,6 @@
 import Link from "next/link";
 import OfferCountdown from "@/components/OfferCountdown";
 
-const VIDEO_URL = "https://www.youtube.com/embed/TU_VIDEO_AQUI";
 const STORAGE_KEY = "mmi-offer-deadline-v1";
 
 function BuyBlock() {
@@ -16,7 +15,7 @@ function BuyBlock() {
       <OfferCountdown storageKey={STORAGE_KEY} durationMinutes={15} />
 
       <Link
-        href="/t/comprar"
+        href="https://buy.stripe.com/eVq9AT8dGbJWa8t9DIdEs03"
         className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95"
       >
         Comprar ahora la guía por 20 €
@@ -45,7 +44,7 @@ function ExpiringCta() {
       </ul>
 
       <Link
-        href="/t/comprar"
+        href="https://buy.stripe.com/eVq9AT8dGbJWa8t9DIdEs03"
         className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95"
       >
         Comprar ahora por 20 € la guía
@@ -168,7 +167,7 @@ export default function ConfirmadoPage() {
         </ul>
 
         <Link
-          href="/t/comprar"
+          href="https://buy.stripe.com/eVq9AT8dGbJWa8t9DIdEs03"
           className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95"
         >
           Comprar ahora por 20 € la guía COMO ESTUDIAR MATEMÁTICAS EN CUALQUIER CURSO DE LA CARRERA SIN VOLVERTE LOCO POR EL CAMINO
