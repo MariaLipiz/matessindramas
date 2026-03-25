@@ -1,5 +1,4 @@
-import Link from "next/link";
-import MailerLiteInlineForm from "../components/MailerLiteInlineForm";
+import NewsletterForm from "@/components/NewsletterForm";
 
 export default function Home() {
     return (
@@ -48,15 +47,15 @@ export default function Home() {
         Y no encuentras paper, libro ni video de Youtube que te salve. 
         </p>
         <p className="mt-16">
-        Por eso, te traigo <span className="font-semibold">una estrategia que podrás aplicar hoy mismo</span> para hacer tu estudio más eficiente, y ya de paso, que todo deje de sonar a chino.
+        Por eso, te traigo <span className="font-semibold">una estrategia muy simple que podrás aplicar hoy mismo</span> para hacer tu estudio más eficiente, y ya de paso, que todo deje de sonar a chino.
         </p>
         <p>
         ¿Que hay que hacer para conseguirla?
         </p>
-        <p>
+        <p className="mb-12">
         Dejas <span className="font-semibold">aquí abajo</span> tu correo.
         </p>
-        <MailerLiteInlineForm />
+        <NewsletterForm />
 
         <h2 className="mt-12 mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl">
          Si te apuntas, también recibirás...
@@ -71,7 +70,7 @@ export default function Home() {
         <p className="mb-12">
         Y recuerda, <span className="font-semibold">día que estás fuera, consejo que te pierdes.</span>
         </p>
-        <MailerLiteInlineForm />
+        <NewsletterForm />
   
         
       </section>
