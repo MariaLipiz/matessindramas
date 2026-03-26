@@ -5,11 +5,13 @@ import { useEffect, useMemo, useState } from "react";
 type OfferCountdownProps = {
   storageKey: string;
   durationMinutes?: number;
+  onExpireChange?: (expired: boolean) => void;
 };
 
 export default function OfferCountdown({
   storageKey,
   durationMinutes = 15,
+  onExpireChange, // 👈 AÑADE ESTO
 }: OfferCountdownProps) {
   const [deadline, setDeadline] = useState<number | null>(null);
   const [now, setNow] = useState<number>(Date.now());
@@ -44,6 +46,10 @@ export default function OfferCountdown({
   }, [deadline, now, durationMinutes]);
 
   const expired = remainingMs <= 0;
+
+  useEffect(() => {
+    onExpireChange?.(expired);
+  }, [expired, onExpireChange]);
 
   const mins = String(Math.floor(remainingMs / 1000 / 60)).padStart(2, "0");
   const secs = String(Math.floor((remainingMs / 1000) % 60)).padStart(2, "0");

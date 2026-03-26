@@ -1,28 +1,8 @@
-import Link from "next/link";
-import OfferCountdown from "@/components/OfferCountdown";
+
+import BuyBlock from "@/components/BuyBlock";
 
 const STORAGE_KEY = "mmi-offer-deadline-v1";
 
-function BuyBlock() {
-  return (
-    <div className="space-y-6">
-      
-
-      <p className="inline-block bg-[#b0e4fc] px-2 py-1 text-3xl font-bold tracking-tighter sm:text-4xl">
-        Como estudiar matemáticas en cualquier curso de la carrera sin volverte loco por el camino
-      </p>
-
-      <OfferCountdown storageKey={STORAGE_KEY} durationMinutes={15} />
-
-      <Link
-        href="https://buy.stripe.com/eVq9AT8dGbJWa8t9DIdEs03"
-        className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95"
-      >
-        Comprar ahora la guía por 20 €
-      </Link>
-    </div>
-  );
-}
 
 function ExpiringCta() {
   return (
@@ -43,12 +23,7 @@ function ExpiringCta() {
         </li>
       </ul>
 
-      <Link
-        href="https://buy.stripe.com/eVq9AT8dGbJWa8t9DIdEs03"
-        className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95"
-      >
-        Comprar ahora por 20 € la guía
-      </Link>
+      <BuyBlock />
     </div>
   );
 }
@@ -166,12 +141,7 @@ export default function ConfirmadoPage() {
           </li>
         </ul>
 
-        <Link
-          href="https://buy.stripe.com/eVq9AT8dGbJWa8t9DIdEs03"
-          className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95"
-        >
-          Comprar ahora por 20 € la guía COMO ESTUDIAR MATEMÁTICAS EN CUALQUIER CURSO DE LA CARRERA SIN VOLVERTE LOCO POR EL CAMINO
-        </Link>
+        <BuyBlock />
 
         <hr className="border-slate-300 my-12" />
 
@@ -227,11 +197,7 @@ export default function ConfirmadoPage() {
 
         <hr className="border-slate-300 my-12" />
 
-        <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl">
-        Como estudiar matemáticas en cualquier curso de la carrera sin volverte loco por el camino
-        </h2>
-
-        <ExpiringCta />
+        <BuyBlock />
       </section>
     </main>
   );
