@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { FormEvent, useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function NewsletterForm() {
   const [email, setEmail] = useState("");
@@ -9,6 +10,7 @@ export default function NewsletterForm() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
   const [success, setSuccess] = useState<boolean | null>(null);
+  const router = useRouter();
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -48,6 +50,9 @@ export default function NewsletterForm() {
       setMessage("Perfecto. Ya estás dentro.");
       setEmail("");
       setAcceptedPrivacy(false);
+
+      router.push("/confirma-tu-email");
+      
     } catch {
       setSuccess(false);
       setMessage("Ha ocurrido un error. Inténtalo de nuevo.");
