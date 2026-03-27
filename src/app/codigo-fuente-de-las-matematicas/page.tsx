@@ -13,7 +13,7 @@ export default function CodigoFuente() {
         </h2> 
 
         <p>
-          Si llevas más de 5 minutos en el grado en matemáticas sabrás que el uno de los grandes problemas (y que casi seguro te pasa) es saber como se te tiene que ocurrir 
+          Si llevas más de 5 minutos en el grado en matemáticas sabrás que uno de los grandes problemas (y que casi seguro te pasa) es saber como se te tiene que ocurrir 
           el argumento necesario para sacar cada ejercicio o demostración.  
         </p>
 
