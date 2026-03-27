@@ -406,7 +406,7 @@ export default function CodigoFuente() {
           </li>
 
           <li>
-            Estudias matemáticas (o incluso física)
+            Estudias matemáticas
           </li>
           <li>
             Tu tasa de aprobados no es del 100%
@@ -420,6 +420,14 @@ export default function CodigoFuente() {
         <p>
         Y punto. Esta feo que yo lo diga, pero si este es tu caso, este curso contiene más valor del que da tiempo a recibir solo viendolo una vez 
         y poniendolo en practica durante un curso entero.
+        </p>
+
+        <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mb-12">
+         Si estudio física, ¿Es válido para mi?
+        </h3> 
+
+        <p>
+        Si tu tasa de aprobados en asignaturas de matemáticas no es del 100%, si. Este curso es válido para ti.
         </p>
 
         <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mb-12">
