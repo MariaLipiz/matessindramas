@@ -544,6 +544,29 @@ export default function CodigoFuente() {
 
       </section>
 
+      <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
+         Curso: El código fuente de las matemáticas
+        </h2> 
+
+        <ul className="list-disc pl-12 space-y-4 ">
+          <li>
+           Impuestos incluidos
+          </li>
+
+          <li>
+            Pago seguro con tarjeta de crédito Visa o Mastercard, Apple Pay y Google Pay.
+          </li>
+          
+
+        </ul>
+
+        <Link
+          href="https://buy.stripe.com/bJe28r79CbJW5Sd7vAdEs04"
+          className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
+        >
+          Comprar ahora el curso: EL CÓDIGO FUENTE DE LAS MATEMÁTICAS por 260 €
+        </Link>
+
     </main>
   );
 }
