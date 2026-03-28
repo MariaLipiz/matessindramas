@@ -10,8 +10,38 @@ export default function CodigoFuente() {
           Este servicio es muy <span className="bg-[#b0e4fc]">simple</span>
         </h1>
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
-         Te ayudaré a identificar y solucionar lo que te está impidiendo llegar al aprobado
+         Te ayudaré a identificar y solucionar lo que te está impidiendo llegar al aprobado.
         </h2> 
+        <p>
+         En una sola sesión, elaboraremos un plan para aprobar tus asignaturas, sabiendo qué hacer cada día y por qué ahora mismo no estás avanzando
+         </p>
+
+         <p>
+         Esto es lo que obtendrás:
+         </p>
+
+         <ul className="list-disc pl-12 space-y-4 ">
+          <li>
+          Un diagnostico claro de porque no estás avanzando
+          </li>
+
+          <li>
+          Qué partes del temario debes priorizar y porqué
+          </li>
+
+          <li>
+          Cómo estudiar cada tema
+          </li>
+
+          <li>
+          Qué ejercicios hacer y en qué orden
+          </li>
+
+          <li>
+          Una hoja de ruta clara hasta el día del examen
+          </li>
+          
+        </ul>
 
         <p>
           El proceso será el siguiente:
@@ -127,20 +157,16 @@ export default function CodigoFuente() {
         </p>
 
         <ul className="list-disc pl-12 space-y-4 ">
+          
+
+        
+
           <li>
-          Vas por la seguda/tercera/cuarta... matricula de una o varias asignaturas y no encuentras la manera de sacarlas
+          No eres capaz de seguir el ritmo en clase y sientes que no llegas a todo
           </li>
 
           <li>
-          Quieres asegurar el aprobado este cuatrimestre
-          </li>
-
-          <li>
-          Te sientes perdido a la hora de como enfocar el estudio de una o varias asignaturas en concreto
-          </li>
-
-          <li>
-          Tu profesor de la uni es caotico y no eres capaz de seguir el ritmo para estudia todo el temario
+          Estás atascado en una o varias asignaturas
           </li>
 
           <li>
@@ -148,8 +174,9 @@ export default function CodigoFuente() {
           </li>
 
           <li>
-          Buscas ayuda para planificar el estudio y/o saber como enfocar una o varias asignaturas
+          Buscas ayuda para planificar el estudio y/o saber como enfocar tus asignaturas
           </li>
+
           
         </ul>
 
@@ -158,8 +185,13 @@ export default function CodigoFuente() {
         </p>
 
         <ul className="list-disc pl-12 space-y-4 ">
+
+        <li>
+          Vas por la seguda/tercera/cuarta... matricula de una o varias asignaturas y no encuentras la manera de estudiarlas para sacarlas (para esto, deberas estar atento a que vuelva a abrir el programa de acompañamiento cuatrimestral)
+          </li>
+        
           <li>
-          Buscas una clase particular para resolver dudas y ejercicios (para esto, deberas estar atento a que vuelva a abrir el programa de acompañamiento cuatrimestral)
+          Necesitas que te expliquen el temario desde cero (para esto, deberas estar atento a que vuelva a abrir el programa de acompañamiento cuatrimestral)
           </li>
 
           <li>
@@ -167,13 +199,9 @@ export default function CodigoFuente() {
           esto, <a href="/codigo-fuente-de-las-matematicas" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">ve aquí</a>)
           </li>
 
-          <li>
-          Has entrado hace poco a la carrera y te sientes muy perdido (para solucionar 
-            esto, <a href="/codigo-fuente-de-las-matematicas" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">ve aquí</a>)
-          </li>
 
           <li>
-          Llevas tiempo en la carrera y te sientes muy perdido (para solucionar 
+          Te sientes muy perdido con todas las asignaturas y todo te suena a chino (para solucionar 
             esto, <a href="/codigo-fuente-de-las-matematicas" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">ve aquí</a>)
           </li>
 
