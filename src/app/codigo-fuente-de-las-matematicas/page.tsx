@@ -519,14 +519,6 @@ export default function CodigoFuente() {
          Algunos testimonios no solicitados
         </h2>
         
-        
-        <Image
-            src="/images/testimonio15.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
         <Image
             src="/images/testimonio16.png"
             alt="Descripción de la imagen"
