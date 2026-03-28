@@ -248,7 +248,7 @@ export default function CodigoFuente() {
         </p>
         <p>
           El curso quedará grabado y podrás verlo las veces que quieras en una plataforma desde la fecha de subida hasta el final de los tiempos, por lo que 
-          si compras despues del 30 de abril de 2026, pues tendrás el contenido grabado. 
+          si compras despues del 30 de abril de 2026, pues tendrás acceso a todo el contenido, pero no podrás asistir a la grabación. 
         </p>
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
