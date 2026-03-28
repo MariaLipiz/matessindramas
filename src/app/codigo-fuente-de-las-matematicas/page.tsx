@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function CodigoFuente() {
   return (
@@ -274,6 +275,14 @@ export default function CodigoFuente() {
           Comprar ahora el curso: EL CÓDIGO FUENTE DE LAS MATEMÁTICAS por 260 €
         </Link>
 
+        <Image
+            src="/images/testimonio14.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+
         <h2 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mb-12">
          «Esta asignatura suena a chino» / «Me piden que sepa cosas que nunca he visto»
         </h2> 
@@ -505,6 +514,41 @@ export default function CodigoFuente() {
         >
           Comprar ahora el curso: EL CÓDIGO FUENTE DE LAS MATEMÁTICAS por 260 €
         </Link>
+
+        <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl my-12">
+         Algunos testimonios no solicitados
+        </h2>
+        
+        
+        <Image
+            src="/images/testimonio15.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/testimonio16.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/testimonio17.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/testimonio18.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        
 
       </section>
 
