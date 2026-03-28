@@ -22,7 +22,7 @@ export default function CodigoFuente() {
 
          <ul className="list-disc pl-12 space-y-4 ">
           <li>
-          Un diagnostico claro de porque no estás avanzando
+          Un diagnostico claro de lo que te está atascando y porque
           </li>
 
           <li>
