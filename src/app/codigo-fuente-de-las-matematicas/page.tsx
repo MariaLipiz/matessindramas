@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import BuyButton from "@/components/BuyButton";
 
 export default function CodigoFuente() {
   return (
@@ -238,7 +239,7 @@ export default function CodigoFuente() {
         </h2> 
 
         <p>
-          El curso lo harás a un precio de 260€, precio final. Este precio no bajará nunca. Tampcoo hago ofertas, ni rebajas ni cosas del estilo. De hecho, ten por 
+          el curso ahora lo harás a un precio de 260€, precio final. Este precio no bajará nunca. Tampcoo hago ofertas, ni rebajas ni cosas del estilo. De hecho, ten por 
           seguro que con el paso del tiempo, el precio subirá.
         </p>
 
@@ -268,12 +269,7 @@ export default function CodigoFuente() {
 
         </ul>
 
-        <Link
-          href="https://buy.stripe.com/bJe28r79CbJW5Sd7vAdEs04"
-          className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
-        >
-          Comprar ahora el curso: EL CÓDIGO FUENTE DE LAS MATEMÁTICAS por 260 €
-        </Link>
+        <BuyButton />
 
         <Image
             src="/images/testimonio14.png"
@@ -365,12 +361,7 @@ export default function CodigoFuente() {
 
         </ul>
 
-        <Link
-          href="https://buy.stripe.com/bJe28r79CbJW5Sd7vAdEs04"
-          className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
-        >
-          Comprar ahora el curso: EL CÓDIGO FUENTE DE LAS MATEMÁTICAS por 260 €
-        </Link>
+        <BuyButton />
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
          Preguntas frecuentes
@@ -508,12 +499,7 @@ export default function CodigoFuente() {
 
         </ul>
 
-        <Link
-          href="https://buy.stripe.com/bJe28r79CbJW5Sd7vAdEs04"
-          className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
-        >
-          Comprar ahora el curso: EL CÓDIGO FUENTE DE LAS MATEMÁTICAS por 260 €
-        </Link>
+        <BuyButton />
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl my-12">
          Algunos testimonios no solicitados
@@ -540,11 +526,8 @@ export default function CodigoFuente() {
             height={200}
             className="rounded-sm"
         />
-        
 
-      </section>
-
-      <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
+        <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
          Curso: El código fuente de las matemáticas
         </h2> 
 
@@ -560,12 +543,12 @@ export default function CodigoFuente() {
 
         </ul>
 
-        <Link
-          href="https://buy.stripe.com/bJe28r79CbJW5Sd7vAdEs04"
-          className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
-        >
-          Comprar ahora el curso: EL CÓDIGO FUENTE DE LAS MATEMÁTICAS por 260 €
-        </Link>
+        <BuyButton />
+        
+
+      </section>
+
+      
 
     </main>
   );
