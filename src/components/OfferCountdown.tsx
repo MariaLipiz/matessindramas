@@ -71,20 +71,20 @@ export default function OfferCountdown({
 
   return (
     <div className="flex items-end gap-4">
-      <div className="flex h-[92px] w-[92px] flex-col items-center justify-center bg-slate-100">
-        <span className="text-4xl font-semibold tracking-tight text-slate-900">
+      <div className="flex h-[92px] w-[92px] flex-col rounded-lg items-center justify-center bg-gray-200">
+      <span className="text-4xl font-semibold tracking-tight text-red-500">
           {mins}
         </span>
-        <span className="text-sm text-slate-700">mins</span>
+        <span className="text-sm text-red-500">mins</span>
       </div>
 
       <div className="pb-5 text-4xl font-semibold text-slate-900">:</div>
 
-      <div className="flex h-[92px] w-[92px] flex-col items-center justify-center bg-slate-100">
-        <span className="text-4xl font-semibold tracking-tight text-slate-900">
+      <div className="flex h-[92px] w-[92px] flex-col rounded-lg items-center justify-center bg-gray-200">
+        <span className="text-4xl font-semibold tracking-tight text-red-500">
           {secs}
         </span>
-        <span className="text-sm text-slate-700">seg</span>
+        <span className="text-sm text-red-500">seg</span>
       </div>
     </div>
   );
