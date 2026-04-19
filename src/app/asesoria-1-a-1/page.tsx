@@ -67,7 +67,7 @@ export default function CodigoFuente() {
         </ol>
 
         <p>
-          El <span className="font-semibold">precio es de 95€</span>, precio final. Este precio nunca bajará, y con el tiempo, lo más probable es que suba. 
+          El <span className="font-semibold">precio es de 150€</span>, precio final. Este precio nunca bajará, y con el tiempo, lo más probable es que suba. 
         </p>
 
 
@@ -92,7 +92,7 @@ export default function CodigoFuente() {
           href="https://buy.stripe.com/eVqeVd79C3dq80l4jodEs06"
           className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
         >
-          Reservar ahora: ASESORÍA 1 A 1 PARA APROBAR ESTE CUATRI por 95€
+          Reservar ahora: ASESORÍA 1 A 1 PARA APROBAR ESTE CUATRI por 150€
         </Link>
 
         <Image
@@ -132,7 +132,7 @@ export default function CodigoFuente() {
           href="https://buy.stripe.com/eVqeVd79C3dq80l4jodEs06"
           className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
         >
-          Reservar ahora: ASESORÍA 1 A 1 PARA APROBAR ESTE CUATRI por 95€
+          Reservar ahora: ASESORÍA 1 A 1 PARA APROBAR ESTE CUATRI por 150€
         </Link>
           
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
@@ -234,7 +234,7 @@ export default function CodigoFuente() {
         </h3> 
 
         <p>
-        El precio es de 95€, precio final. Este precio nunca bajará, y con el tiempo, lo más probable es que suba.
+        El precio es de 150€, precio final. Este precio nunca bajará, y con el tiempo, lo más probable es que suba.
         </p>
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
@@ -258,7 +258,7 @@ export default function CodigoFuente() {
           href="https://buy.stripe.com/eVqeVd79C3dq80l4jodEs06"
           className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
         >
-          Reservar ahora: ASESORÍA 1 A 1 PARA APROBAR ESTE CUATRI por 95€
+          Reservar ahora: ASESORÍA 1 A 1 PARA APROBAR ESTE CUATRI por 150€
         </Link>
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl my-12">
@@ -357,7 +357,7 @@ export default function CodigoFuente() {
           href="https://buy.stripe.com/eVqeVd79C3dq80l4jodEs06"
           className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
         >
-          Reservar ahora: ASESORÍA 1 A 1 PARA APROBAR ESTE CUATRI por 95€
+          Reservar ahora: ASESORÍA 1 A 1 PARA APROBAR ESTE CUATRI por 150€
         </Link>
         
         
