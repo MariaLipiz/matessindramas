@@ -104,7 +104,7 @@ export default function CodigoFuente() {
         />
 
         <Image
-            src="/images/opinion6.jpg"
+            src="/images/Opinion6.jpg"
             alt="Descripción de la imagen"
             width={400}
             height={200}
@@ -313,7 +313,7 @@ export default function CodigoFuente() {
         />
         
         <Image
-            src="/images/opinion1.jpg"
+            src="/images/Opinion1.jpg"
             alt="Descripción de la imagen"
             width={400}
             height={200}
@@ -322,7 +322,7 @@ export default function CodigoFuente() {
         
         
         <Image
-            src="/images/opinion4.jpg"
+            src="/images/Opinion4.jpg"
             alt="Descripción de la imagen"
             width={400}
             height={200}
