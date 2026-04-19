@@ -89,7 +89,7 @@ export default function CodigoFuente() {
         </ul>
 
         <Link
-          href="https://buy.stripe.com/14A3cvbpS01egwR9DIdEs05"
+          href="https://buy.stripe.com/eVqeVd79C3dq80l4jodEs06"
           className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
         >
           Reservar ahora: ASESORÍA 1 A 1 PARA APROBAR ESTE CUATRI por 95€
@@ -129,7 +129,7 @@ export default function CodigoFuente() {
         </ul>
 
         <Link
-          href="https://buy.stripe.com/14A3cvbpS01egwR9DIdEs05"
+          href="https://buy.stripe.com/eVqeVd79C3dq80l4jodEs06"
           className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
         >
           Reservar ahora: ASESORÍA 1 A 1 PARA APROBAR ESTE CUATRI por 95€
@@ -255,7 +255,7 @@ export default function CodigoFuente() {
         </ul>
 
         <Link
-          href="https://buy.stripe.com/14A3cvbpS01egwR9DIdEs05"
+          href="https://buy.stripe.com/eVqeVd79C3dq80l4jodEs06"
           className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
         >
           Reservar ahora: ASESORÍA 1 A 1 PARA APROBAR ESTE CUATRI por 95€
@@ -354,7 +354,7 @@ export default function CodigoFuente() {
         </ul>
 
         <Link
-          href="https://buy.stripe.com/14A3cvbpS01egwR9DIdEs05"
+          href="https://buy.stripe.com/eVqeVd79C3dq80l4jodEs06"
           className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95 mb-14"
         >
           Reservar ahora: ASESORÍA 1 A 1 PARA APROBAR ESTE CUATRI por 95€
