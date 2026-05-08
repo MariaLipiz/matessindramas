@@ -51,19 +51,18 @@ export default function AccessForm() {
   }
 
   return (
-    <section className="mx-auto w-full max-w-5xl px-4 py-10">
+    <section className="max-w-3xl py-10">
       <details
-        open
-        className="border-[3px] border-blue-200 bg-white p-6 md:p-8"
+        className="border-[3px] border-blue-200 rounded-xl bg-white p-6 md:p-8"
       >
-        <summary className="mb-10 cursor-pointer list-none text-3xl font-normal text-black md:text-5xl">
-          <span className="mr-4 inline-block text-black">▶</span>
+        <summary className=" cursor-pointer list-none text-xl font-normal text-black md:text-3xl">
+          <span className="mr-4 ">▶</span>
           Formulario de acceso
         </summary>
 
         <form onSubmit={handleSubmit} className="space-y-8">
           <div>
-            <label className="mb-3 block text-xl font-bold text-neutral-900">
+            <label className="mt-10 mb-3 block text-xl font-bold text-neutral-900">
               Contacto WhatsApp <span className="text-red-500">*</span>
             </label>
             <input
@@ -95,11 +94,11 @@ export default function AccessForm() {
             <select
               required
               name="curso"
-              className="w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
+              className="w-full max-w-3xl rounded border border-neutral-300 px-6 py-6 text-lg outline-none focus:border-blue-500"
               defaultValue=""
             >
               <option value="" disabled>
-                — Select Choice —
+                — Selecciona una —
               </option>
               <option>Carrera de Matemáticas</option>
               <option>Carrera de Fisica</option>
@@ -118,11 +117,11 @@ export default function AccessForm() {
             <select
               required
               name="curso"
-              className="w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
+              className="w-full max-w-3xl rounded border border-neutral-300 px-6 py-6 text-lg outline-none focus:border-blue-500"
               defaultValue=""
             >
               <option value="" disabled>
-                — Select Choice —
+              — Selecciona una —
               </option>
               <option>1º de carrera</option>
               <option>2º de carrera</option>
@@ -141,11 +140,11 @@ export default function AccessForm() {
             <select
               required
               name="objetivoPrincipal"
-              className="w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
+              className="w-full max-w-3xl rounded border border-neutral-300 px-6 py-6 text-lg outline-none focus:border-blue-500"
               defaultValue=""
             >
               <option value="" disabled>
-                — Select Choice —
+              — Selecciona una —
               </option>
               <option>Quiero aprobar una/varias asignaturas de matemáticas</option>
               <option>Quiero dejar de ir perdido/a en clase</option>
@@ -164,11 +163,11 @@ export default function AccessForm() {
             <select
               required
               name="objetivo"
-              className="w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
+              className="w-full max-w-3xl rounded border border-neutral-300 px-6 py-6 text-lg outline-none focus:border-blue-500"
               defaultValue=""
             >
               <option value="" disabled>
-                — Select Choice —
+              — Selecciona una —
               </option>
               <option>Aprobar las asignaturas que llevo arrastrando</option>
               <option>Aprobar el curso limpio/a</option>
@@ -187,11 +186,11 @@ export default function AccessForm() {
             <select
               required
               name="urgencia"
-              className="w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
+              className="w-full max-w-3xl rounded border border-neutral-300 px-6 py-6 text-lg outline-none focus:border-blue-500"
               defaultValue=""
             >
               <option value="" disabled>
-                — Select Choice —
+              — Selecciona una —
               </option>
               <option>Lo quiero resolver ya mismo</option>
               <option>Quiero ponerme a resolverlo en 2-4 semanas</option>
@@ -209,11 +208,11 @@ export default function AccessForm() {
             <select
               required
               name="capital"
-              className="w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
+              className="w-full max-w-3xl rounded border border-neutral-300 px-6 py-6 text-lg outline-none focus:border-blue-500"
               defaultValue=""
             >
               <option value="" disabled>
-                — Select Choice —
+              — Selecciona una —
               </option>
               <option>Tengo 350€</option>
               <option>Tengo de 350 a 800€</option>
@@ -231,11 +230,11 @@ export default function AccessForm() {
             <select
               required
               name="decision"
-              className="w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
+              className="w-full max-w-3xl rounded border border-neutral-300 px-6 py-6 text-lg outline-none focus:border-blue-500"
               defaultValue=""
             >
               <option value="" disabled>
-                — Select Choice —
+              — Selecciona una —
               </option>
               <option>Sí, tengo que consultarlo con mis padres</option>
               <option>Sí, tengo que consultarlo con mi pareja o algún familiar</option>
@@ -252,11 +251,11 @@ export default function AccessForm() {
             <select
               required
               name="puntualidad"
-              className="w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
+              className="w-full max-w-3xl rounded border border-neutral-300 px-6 py-6 text-lg outline-none focus:border-blue-500"
               defaultValue=""
             >
               <option value="" disabled>
-                — Select Choice —
+              — Selecciona una —
               </option>
               <option>No. Voy a asistir a la llamada de admisión.</option>
               <option>Sí, es posible que no pueda asistir</option>
