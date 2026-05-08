@@ -424,6 +424,8 @@ export default function Comunidad() {
           reunión de admisión:
         </p>
 
+        <AccessForm />
+
         
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
