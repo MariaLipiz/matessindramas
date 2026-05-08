@@ -3,10 +3,29 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: Request) {
   try {
+    const resendApiKey = process.env.RESEND_API_KEY;
+    const toEmail = process.env.ACCESS_FORM_TO_EMAIL;
+
+    if (!resendApiKey) {
+      console.error("Falta RESEND_API_KEY");
+      return NextResponse.json(
+        { error: "Falta configurar RESEND_API_KEY" },
+        { status: 500 }
+      );
+    }
+
+    if (!toEmail) {
+      console.error("Falta ACCESS_FORM_TO_EMAIL");
+      return NextResponse.json(
+        { error: "Falta configurar ACCESS_FORM_TO_EMAIL" },
+        { status: 500 }
+      );
+    }
+
+    const resend = new Resend(resendApiKey);
+
     const data = await request.json();
 
     const {
@@ -32,7 +51,7 @@ export async function POST(request: Request) {
 
     await resend.emails.send({
       from: "Formulario Web <onboarding@resend.dev>",
-      to: process.env.ACCESS_FORM_TO_EMAIL as string,
+      to: toEmail,
       subject: "Nueva solicitud desde el formulario de acceso",
       html: `
         <h2>Nueva solicitud de acceso</h2>
