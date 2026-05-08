@@ -31,18 +31,28 @@ export async function POST(request: Request) {
     const {
       whatsapp,
       email,
-      twitter,
+      estudios,
+      curso,
       objetivoPrincipal,
-      dedicacion,
       objetivo,
-      obstaculos,
       urgencia,
       capital,
       decision,
       puntualidad,
     } = data;
 
-    if (!whatsapp || !email || !twitter) {
+    if (
+      !whatsapp ||
+      !email ||
+      !estudios ||
+      !curso ||
+      !objetivoPrincipal ||
+      !objetivo ||
+      !urgencia ||
+      !capital ||
+      !decision ||
+      !puntualidad
+    ) {
       return NextResponse.json(
         { error: "Faltan campos obligatorios" },
         { status: 400 }
@@ -58,16 +68,16 @@ export async function POST(request: Request) {
 
         <p><strong>WhatsApp:</strong> ${whatsapp}</p>
         <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Usuario de X/Twitter:</strong> ${twitter}</p>
 
         <hr />
 
-        <p><strong>Objetivo principal:</strong> ${objetivoPrincipal}</p>
-        <p><strong>Dedicación actual:</strong> ${dedicacion}</p>
-        <p><strong>Objetivo 3 meses - 1 año:</strong> ${objetivo}</p>
-        <p><strong>Obstáculos:</strong> ${
-          Array.isArray(obstaculos) ? obstaculos.join(", ") : obstaculos
-        }</p>
+        <p><strong>¿Qué está estudiando?:</strong> ${estudios}</p>
+        <p><strong>¿En qué curso está?:</strong> ${curso}</p>
+
+        <hr />
+
+        <p><strong>Objetivo principal ahora:</strong> ${objetivoPrincipal}</p>
+        <p><strong>Objetivo de aquí a 3 meses - 1 año:</strong> ${objetivo}</p>
         <p><strong>Urgencia:</strong> ${urgencia}</p>
         <p><strong>Capital disponible:</strong> ${capital}</p>
         <p><strong>Decisión:</strong> ${decision}</p>

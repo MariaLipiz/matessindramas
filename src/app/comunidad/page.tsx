@@ -93,7 +93,7 @@ export default function Comunidad() {
         </ul>
 
         <p className="font-bold my-12">
-          Si me has entendido, esta comunidad es, sin duda, una inversión
+          Si me has entendido, esta es, sin duda, una inversión
           altamente rentable. Si no sabes de qué estoy hablando, esto no es para
           ti.
         </p>
@@ -310,70 +310,7 @@ export default function Comunidad() {
             className="rounded-sm"
         />
         
-        <Image
-            src="/images/testimonio9.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
-        <Image
-            src="/images/testimonio10.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
-        <Image
-            src="/images/testimonio11.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
-        <Image
-            src="/images/testimonio12.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
-        <Image
-            src="/images/testimonio13.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
-        <Image
-            src="/images/testimonio14.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
-
-        <Image
-            src="/images/testimonio16.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
-        <Image
-            src="/images/testimonio17.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
-        <Image
-            src="/images/testimonio18.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
+        
 
         <p className="font-bold my-12">
           3. Cada semana, una lección en directo. Semana que estás fuera, lección
@@ -460,6 +397,8 @@ export default function Comunidad() {
           4. Resolución grabada de tus ejercicios.
         </p>
 
+        <AccessForm />
+
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
         El precio mínimo para acceder son 350€ por tres meses, impuestos
         incluidos.
@@ -485,16 +424,7 @@ export default function Comunidad() {
           reunión de admisión:
         </p>
 
-        <div className="my-12">
-          <Link
-            href={ADMISSION_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-full bg-gray-900 px-8 py-4 text-base sm:text-xl font-bold text-white hover:bg-gray-700 transition-colors"
-          >
-            Reservar reunión de admisión
-          </Link>
-        </div>
+        
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
         Darse de baja es muy fácil
@@ -524,6 +454,8 @@ export default function Comunidad() {
         sacarme el partido que se obtiene cuando estas 
         relaciones se extienden en el tiempo.
         </p>
+
+        <AccessForm />
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
         Preguntas que quizás te estás haciendo
@@ -561,6 +493,10 @@ export default function Comunidad() {
         <p>
         Sí, puedes irte cuando quieras. Una vez que acabe 
         el periodo que hayas pagado no se te cobrará nada más.
+        </p>
+
+        <p>
+        Recuerda que si te vas no podrás volver a entrar. Y no, no hacemos descansos en verano. 
         </p>
 
         <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mb-12">
@@ -633,6 +569,126 @@ export default function Comunidad() {
 
         <AccessForm />
 
+        <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
+        Algunos testimonios no solicitados
+        </h2>
+
+        <Image
+            src="/images/testimonio9.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/testimonio10.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/testimonio11.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/testimonio12.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/testimonio13.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/testimonio14.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+
+        <Image
+            src="/images/testimonio16.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/testimonio17.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/testimonio18.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+
+        <Image
+            src="/images/OP1.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/OP2.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/OP3.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/OP4.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/OP5.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/OP6.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+        <Image
+            src="/images/OP7.png"
+            alt="Descripción de la imagen"
+            width={600}
+            height={200}
+            className="rounded-sm"
+        />
+
+        <AccessForm />
 
 
       </section>

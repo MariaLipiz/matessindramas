@@ -20,11 +20,10 @@ export default function AccessForm() {
     const payload = {
       whatsapp: formData.get("whatsapp"),
       email: formData.get("email"),
-      twitter: formData.get("twitter"),
+      estudios: formData.get("estudios"),
+      curso: formData.get("curso"),
       objetivoPrincipal: formData.get("objetivoPrincipal"),
-      dedicacion: formData.get("dedicacion"),
       objetivo: formData.get("objetivo"),
-      obstaculos: formData.getAll("obstaculos"),
       urgencia: formData.get("urgencia"),
       capital: formData.get("capital"),
       decision: formData.get("decision"),
@@ -84,21 +83,54 @@ export default function AccessForm() {
               required
               name="email"
               type="email"
+              placeholder="tuemail@email.com"
               className="w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
             />
           </div>
 
           <div>
             <label className="mb-3 block text-xl font-bold text-neutral-900">
-              ¿Tu usuario de X / Twitter? ejemplo: @honordetigre{" "}
-              <span className="text-red-500">*</span>
+              ¿Qué estás estudiando? <span className="text-red-500">*</span>
             </label>
-            <textarea
+            <select
               required
-              name="twitter"
-              rows={5}
-              className="w-full rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
-            />
+              name="curso"
+              className="w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
+              defaultValue=""
+            >
+              <option value="" disabled>
+                — Select Choice —
+              </option>
+              <option>Carrera de Matemáticas</option>
+              <option>Carrera de Fisica</option>
+              <option>Ingeniería</option>
+              <option>ADE</option>
+              <option>Economía</option>
+              <option>Master</option>
+              <option>Matemáticas de Bachillerato/Instituto</option>
+            </select>
+          </div>
+
+          <div>
+            <label className="mb-3 block text-xl font-bold text-neutral-900">
+              ¿En qué curso estás? <span className="text-red-500">*</span>
+            </label>
+            <select
+              required
+              name="curso"
+              className="w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
+              defaultValue=""
+            >
+              <option value="" disabled>
+                — Select Choice —
+              </option>
+              <option>1º de carrera</option>
+              <option>2º de carrera</option>
+              <option>3º de carrera</option>
+              <option>4º de carrera</option>
+              <option>Máster</option>
+              <option>Otro</option>
+            </select>
           </div>
 
           <div>
@@ -115,33 +147,12 @@ export default function AccessForm() {
               <option value="" disabled>
                 — Select Choice —
               </option>
-              <option>Deseo convertirme en creador viral de X</option>
-              <option>Quiero captar leads para mi negocio</option>
-            </select>
-          </div>
-
-          <div>
-            <label className="mb-3 block text-xl font-bold text-neutral-900">
-              ¿A qué te dedicas actualmente?{" "}
-              <span className="text-red-500">*</span>
-            </label>
-            <select
-              required
-              name="dedicacion"
-              className="w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
-              defaultValue=""
-            >
-              <option value="" disabled>
-                — Select Choice —
-              </option>
-              <option>Tengo mi propio negocio, pero aún no puedo vivir de ello</option>
-              <option>
-                Tengo mi propio negocio y ya genero entre $2.000 y $20.000 USD
-                netos de ganancia
-              </option>
-              <option>Soy empleado y gano más de $1000 USD mensuales</option>
-              <option>Soy empleado y gano menos de $1000 USD mensuales</option>
-              <option>Soy empleado y gano menos de $300 USD mensuales</option>
+              <option>Quiero aprobar una/varias asignaturas de matemáticas</option>
+              <option>Quiero dejar de ir perdido/a en clase</option>
+              <option>Quiero estudiar menos horas pero de forma más efectiva</option>
+              <option>Quiero aprender a resolver ejercicios/hacer demostraciones sin memorizarlo todo</option>
+              <option>Voy aprobando pero quiero mejorar mis notas</option>
+              <option>Quiero aprender matemáticas por hobby</option>
             </select>
           </div>
 
@@ -159,42 +170,19 @@ export default function AccessForm() {
               <option value="" disabled>
                 — Select Choice —
               </option>
-              <option>Crecer mi negocio y duplicar la facturación</option>
-              <option>Darle más presencia a mi negocio en redes sociales</option>
-              <option>Generar entre $100-300 USD extras mensuales con X</option>
-              <option>
-                Generar entre $600-3000 USD mensuales creando mi propio negocio en X
-              </option>
+              <option>Aprobar las asignaturas que llevo arrastrando</option>
+              <option>Aprobar el curso limpio/a</option>
+              <option>Entender por fin las asignaturas</option>
+              <option>Preparar bien los finales sin estudiar a ciegas</option>
+              <option>Aprender un método de estudio que me sirva para toda la carrera</option>
+              <option>Dejar de depender de memorizar ejercicios tipo</option>
             </select>
-          </div>
-
-          <div>
-            <label className="mb-3 block text-xl font-bold text-neutral-900">
-              ¿Qué te está impidiendo alcanzar tu objetivo mensual AHORA MISMO?{" "}
-              <span className="text-red-500">*</span>
-            </label>
-            <select
-              required
-              multiple
-              name="obstaculos"
-              className="h-36 w-full max-w-2xl rounded border border-neutral-300 px-4 py-3 text-lg outline-none focus:border-blue-500"
-            >
-              <option>No sé cómo generar leads con X</option>
-              <option>Tengo que afinar mi oferta</option>
-              <option>Necesito llegar a más personas</option>
-              <option>No tengo ni idea de crecer y monetizar en X</option>
-              <option>Pierdo mucho tiempo en redes y quiero aprovecharlo</option>
-              <option>Hace mucho que quiero empezar y nunca lo hago</option>
-            </select>
-            <p className="mt-2 text-sm text-neutral-500">
-              Mantén pulsado Cmd o Ctrl para seleccionar varias opciones.
-            </p>
           </div>
 
           <div>
             <label className="mb-3 block text-xl font-bold text-neutral-900">
               ¿Qué tan pronto quieres resolver los obstáculos que hoy te impiden
-              alcanzar tu meta de ingresos? <span className="text-red-500">*</span>
+              alcanzar tu objetivo? <span className="text-red-500">*</span>
             </label>
             <select
               required
@@ -205,9 +193,9 @@ export default function AccessForm() {
               <option value="" disabled>
                 — Select Choice —
               </option>
-              <option>Lo quiero resolver YA mismo</option>
-              <option>Quiero verlo en 2-4 semanas</option>
-              <option>Quiero resolverlo en unos meses</option>
+              <option>Lo quiero resolver ya mismo</option>
+              <option>Quiero ponerme a resolverlo en 2-4 semanas</option>
+              <option>Quiero resolverlo antes de los próximos exámenes, pero no ahora</option>
               <option>Aún no sé cuándo resolverlo</option>
             </select>
           </div>
@@ -215,7 +203,7 @@ export default function AccessForm() {
           <div>
             <label className="mb-3 block max-w-4xl text-xl font-bold text-neutral-900">
               ¿Cuánto capital tienes disponible para invertir en la reunión en
-              caso de que te pueda ayudar a crecer tu cuenta de X/tu negocio?{" "}
+              caso de que te pueda ayudar a aprobar/mejorar en matemáticas?{" "}
               <span className="text-red-500">*</span>
             </label>
             <select
@@ -227,17 +215,17 @@ export default function AccessForm() {
               <option value="" disabled>
                 — Select Choice —
               </option>
-              <option>Tengo 300€</option>
-              <option>Tengo de 300 a 600€</option>
-              <option>Tengo de 600 a 1200€</option>
+              <option>Tengo 350€</option>
+              <option>Tengo de 350 a 800€</option>
+              <option>Tengo de 800 a 1200€</option>
               <option>Tengo más de 1200€</option>
             </select>
           </div>
 
           <div>
             <label className="mb-3 block max-w-4xl text-xl font-bold text-neutral-900">
-              En caso de decidir comenzar a trabajar en el VIP, ¿existe alguien
-              más que deba estar presente para tomar la decisión de hacerlo?{" "}
+              En caso de decidir comenzar a trabajar juntos, ¿existe alguien más
+              que deba estar presente para tomar la decisión de hacerlo?{" "}
               <span className="text-red-500">*</span>
             </label>
             <select
@@ -249,9 +237,10 @@ export default function AccessForm() {
               <option value="" disabled>
                 — Select Choice —
               </option>
-              <option>Sí, tengo que ingresar con mi socio</option>
-              <option>Sí, tengo que ingresar con mi pareja o algún familiar</option>
-              <option>No, puedo tomar la decisión por mí mismo. No necesito a nadie.</option>
+              <option>Sí, tengo que consultarlo con mis padres</option>
+              <option>Sí, tengo que consultarlo con mi pareja o algún familiar</option>
+              <option>Sí, otra persona debería estar presente en la llamada</option>
+              <option>No, puedo tomar la decisión por mí mismo/a. No necesito a nadie.</option>
             </select>
           </div>
 
@@ -269,8 +258,8 @@ export default function AccessForm() {
               <option value="" disabled>
                 — Select Choice —
               </option>
-              <option>No. Yo voy a asistir a la llamada de admisión.</option>
-              <option>Sí, necesito reprogramar ahora</option>
+              <option>No. Voy a asistir a la llamada de admisión.</option>
+              <option>Sí, es posible que no pueda asistir</option>
             </select>
           </div>
 
