@@ -55,7 +55,7 @@ export async function POST(req: NextRequest) {
           EmailAddress: normalizedEmail,
           Resubscribe: true,
           RestartSubscriptionBasedAutoresponders: false,
-          ConsentToTrack: "No",
+          ConsentToTrack: "Yes",
         }),
       }
     );
