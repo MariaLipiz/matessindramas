@@ -93,7 +93,7 @@ export default function AccessForm() {
             </label>
             <select
               required
-              name="curso"
+              name="estudios"
               className="w-full max-w-3xl rounded border border-neutral-300 px-6 py-6 text-lg outline-none focus:border-blue-500"
               defaultValue=""
             >
