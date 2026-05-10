@@ -1,7 +1,6 @@
 # *
 User-agent: *
 Allow: /
-Disallow: /legal
 
 # Host
 Host: https://www.matessindramas.com
