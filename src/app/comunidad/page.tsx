@@ -160,11 +160,6 @@ export default function Comunidad() {
             sin apenas segundas matriculas, sin memorizar un solo teorema y sin mecanizar ningún ejercicio.
           </li>
           <li>
-            Cuenta con un repositorio de apuntes propios y con una
-            metodología de estudio con la que pone a prueba todo eso y un negocio
-            propio de enseñanza con lista de espera.
-          </li>
-          <li>
             Pasa el día relacionándose con alumnos de todo tipo y formándose para
             hacer cada vez más simple y accesible el proceso de aprobar en carreras como matemáticas.
           </li>
@@ -192,15 +187,37 @@ export default function Comunidad() {
         </p>
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
-          Una comunidad. Varios niveles de acceso.
+        Te preparo para aprobar. Sin memorizar, sin echar todo el día estudiando, sin depender de lo que al profesor se le antoje ese día.
         </h2>
 
+        <p>
+        Hay dos formas de trabajar conmigo, según el nivel de ayuda que necesites y el tiempo que quieras tardar en ver resultados. 
+        </p>
+
         <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mb-12">
-          El nivel de acceso básico incluye…
+          Preparación base
         </h3>
 
+        <p>
+        Para alumnos que busquen ayuda cuando se atasquen. Materiales, videos, apuntes claros y apoyo para no quedarse atras. 
+        </p>
+
+        <p>
+        Esto incluye...
+        </p>
+
         <p className="font-bold my-12">
-          1. Todo mi repositorio de apuntes con vídeos explicativos de cada tema.
+          1. Resolución ilimitada de dudas por chat.
+        </p>
+
+        <p>
+          Podrás preguntarme todas las dudas que tengas de ejercicios, teoría, demostraciones, estudio... 
+        </p>
+
+        
+
+        <p className="font-bold my-12">
+          2. El repositorio completo de apuntes con vídeos explicativos de cada tema.
         </p>
 
         <p>
@@ -212,9 +229,76 @@ export default function Comunidad() {
           Desgranado y simplificado para que lo puedas aplicar inmediatamente sin
           ninguna explicación adicional.
         </p>
+        
 
         <p className="font-bold my-12">
-          2. El paso a paso completo para aprobar cualquier asignatura sin matarse a
+          3. Cada semana, una lección en directo. Semana que estás fuera, lección
+          que te pierdes.
+        </p>
+
+        <p>
+          Cada semana grabamos una lección de matemáticas. Se trata de una
+          formación que luego queda grabada para que cada uno pueda verla cuándo y
+          dónde quiera.
+        </p>
+
+        <p>
+          Se trata de una lección del mismo valor y nivel de calidad al que he
+          dado durante años a cualquiera de mis alumnos.
+        </p>
+
+        <p>
+          Una vez que entras en la comunidad, empiezas a recibir las lecciones.
+          Una nueva cada lunes.
+        </p>
+
+        <p>
+          Eso significa que si una semana no estás dentro, esa lección te la
+          pierdes para siempre.
+        </p>
+        
+
+
+        
+
+        
+
+        <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl my-12">
+          Preparación VIP
+        </h3>
+
+
+        <p>
+        Esto es para los miembros que quieran conseguir resultados en tiempo
+          récord y/o tengan cerca exámenes que no pueden fallar.
+        </p>
+
+        <p>
+        Incluye todo lo anterior y:
+        </p>
+
+        <p className="font-bold my-12">
+          1. Clases individuales y seguimiento.
+        </p>
+
+
+        <p className="font-bold my-12">
+          2. Plan detallado para tu caso.
+        </p>
+
+        <p>
+          Nada más acceder, tendremos una llamada en la que me contarás qué estás
+          estudiando, en qué estás atascado, tus objetivos y todo lo necesario.
+        </p>
+
+        <p>
+          Después, elaboraremos un plan de acción para alcanzar tus objetivos en
+          el menor tiempo posible.
+        </p>
+
+
+        <p className="font-bold my-12">
+          3. El paso a paso completo para aprobar cualquier asignatura sin matarse a
           estudiar y sin memorizar ninguna demostración.
         </p>
 
@@ -309,104 +393,17 @@ export default function Comunidad() {
             height={200}
             className="rounded-sm"
         />
-        
-        
-
-        <p className="font-bold my-12">
-          3. Cada semana, una lección en directo. Semana que estás fuera, lección
-          que te pierdes.
-        </p>
-
-        <p>
-          Cada semana grabamos una lección de matemáticas. Se trata de una
-          formación que luego queda grabada para que cada uno pueda verla cuándo y
-          dónde quiera.
-        </p>
-
-        <p>
-          Se trata de una lección del mismo valor y nivel de calidad al que he
-          dado durante años a cualquiera de mis clientes.
-        </p>
-
-        <p>
-          Una vez que entras en la comunidad, empiezas a recibir las lecciones.
-          Una nueva cada lunes.
-        </p>
-
-        <p>
-          Eso significa que si una semana no estás dentro, esa lección te la
-          pierdes para siempre.
-        </p>
-
-        <p className="font-bold my-12">
-          4. Soporte por chat en la comunidad.
-        </p>
-
-        <p>
-          En la comunidad, hay un canal específico para dudas.
-        </p>
-
-        <p>
-          Se trata de un canal donde todos los miembros pueden preguntar dudas de
-          teoría, ejercicios, demostraciones o lo que les parezca.
-        </p>
-
-        <p>
-          Ahí tanto yo como los miembros con más nivel de la comunidad
-          responderemos para que nadie se quede atascado.
-        </p>
-
-        <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mb-12">
-          El nivel de acceso VIP incluye todo lo anterior más…
-        </h3>
-
-        <p className="font-bold my-12">
-          1. Plan de acción detallado para tu caso.
-        </p>
-
-        <p>
-          Nada más acceder, tendremos una llamada en la que me contarás qué estás
-          estudiando, en qué estás atascado, tus objetivos y todo lo necesario.
-        </p>
-
-        <p>
-          Después, elaboraremos un plan de acción para alcanzar tus objetivos en
-          el menor tiempo posible.
-        </p>
-
-        <p className="font-bold my-12">
-          2. Llamadas 1 a 1 conmigo y seguimiento.
-        </p>
-
-        <p>
-          Esto es para los miembros que quieran conseguir resultados en tiempo
-          récord y/o tengan cerca exámenes que no pueden fallar.
-        </p>
-
-        <p className="font-bold my-12">
-          3. Un directo semanal de dudas.
-        </p>
-
-        <p>
-          Cada semana responderé todas las dudas de los miembros VIP en una
-          llamada que luego quedará grabada sobre ejercicios, demostraciones, métodos de estudio,
-          mentalidad…
-        </p>
-
-        <p className="font-bold my-12">
-          4. Resolución grabada de tus ejercicios.
-        </p>
 
         <AccessForm />
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
-        El precio mínimo para acceder son 350€ por tres meses, impuestos
+        La preparación empieza en 350€ por tres meses, impuestos
         incluidos.
         </h2>
 
 
         <p>
-          Este precio es el MÍNIMO para acceder al nivel básico.
+          Este precio es el mínimo para trabajar conmigo en la preparación base.
         </p>
 
         <p>
@@ -429,11 +426,11 @@ export default function Comunidad() {
         
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
-        Darse de baja es muy fácil
+        Irse es muy fácil
         </h2>
 
         <p>
-        Si una vez dentro sientes que no es para ti te das de baja y a partir de ese día ya no pagarás más.
+        Si una vez empecemos sientes que no es para ti, me lo dices y santas pascuas.
         </p>
 
         <p>
@@ -445,7 +442,7 @@ export default function Comunidad() {
         compromiso por parte de mis alumnos, lo que 
         significa que eres libre de entrar, probar y 
         marcharte, pero una vez que te des de baja 
-        perderás el acceso al contenido y ya no podrás 
+        perderás el acceso al contenido, a los apuntes, a los videos y ya no podrás 
         volver a entrar.
         </p>
 
@@ -489,12 +486,11 @@ export default function Comunidad() {
         </p>
 
         <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mb-12">
-        ¿Me puedo dar de baja cuando quiera?
+        ¿Puedo dejarlo cuando quiera?
         </h3>
 
         <p>
-        Sí, puedes irte cuando quieras. Una vez que acabe 
-        el periodo que hayas pagado no se te cobrará nada más.
+        Sí, puedes irte cuando quieras.
         </p>
 
         <p>
@@ -509,15 +505,30 @@ export default function Comunidad() {
           <li>Reservas tu reunión de admisión</li>
           <li>Hacemos la reunión de admisión</li>
           <li>Si tiene sentido que entres, te propondré 
-            el nivel de acceso que mejor se adapte a lo que buscas.
+            la preparación que mejor se adapte a lo que buscas.
           </li>
           <li>Pagas</li>
           <li>Te doy el acceso</li>
-          <li>Accedes a la comunidad y a todo el contenido</li>
+          <li>Accedes a todo el contenido y a la comunidad</li>
         </ul>
 
         <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mb-12">
-        Tengo contratado un profesor particular, ¿Merece la pena estar en la comunidad?
+        Si accedo a la preparación VIP, ¿Cuantas clases me vas a dar / le vas a dar a mi hijo?
+        </h3>
+
+        <p>
+        Eso no lo sabré hasta que no te conozca / conozca a tu hijo.
+        </p>
+
+        <p>
+        Esta preparación no se basa en clases por horas ni nada por el estilo, ni la idea es que yo te de una chapa 
+        reglamentaria innecesaria tantas veces por semana.  
+        Esta es una formación completa para entender las asignaturas con el objetivo de aprobar, por lo que si estas mas preocupado por la cantidad de 
+        horas que por tus resultados / los resultados de tu hijo, lo mejor es que cierres esta página.  
+        </p>
+
+        <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mb-12">
+        Tengo contratado un profesor particular, ¿Merece la pena apuntarme aquí?
         </h3>
 
         <p>
@@ -532,6 +543,15 @@ export default function Comunidad() {
         <p>
         Vale para quien quiera aprobar matemáticas.
         </p>
+
+        <p>
+        No vale para:
+        </p>
+
+        <ul className="list-disc pl-12 space-y-4">
+          <li>Personas que quieren cuatro clases sueltas</li>
+          <li>Personas que tienen un exámen pasado mañana</li>
+        </ul>
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
         «Pagaría incluso el doble del precio aunque solo ofrecieses 
