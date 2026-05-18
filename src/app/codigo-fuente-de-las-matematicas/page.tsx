@@ -239,7 +239,7 @@ export default function CodigoFuente() {
         </h2> 
 
         <p>
-          el curso ahora lo harás a un precio de 260€, precio final. Este precio no bajará nunca. Tampcoo hago ofertas, ni rebajas ni cosas del estilo. De hecho, ten por 
+          el curso ahora lo harás a un precio de 320€, precio final. Este precio no bajará nunca. Tampoco hago ofertas, ni rebajas ni cosas del estilo. De hecho, ten por 
           seguro que con el paso del tiempo, el precio subirá.
         </p>
 
@@ -271,13 +271,6 @@ export default function CodigoFuente() {
 
         <BuyButton />
 
-        <Image
-            src="/images/testimonio14.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
 
         <h2 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mb-12">
          «Esta asignatura suena a chino» / «Me piden que sepa cosas que nunca he visto»
@@ -453,7 +446,7 @@ export default function CodigoFuente() {
         </h3> 
 
         <p>
-        El precio de este curso es de 260€. Nunca hago ofertas, ni black fridays, ni rebajas, ni nada. Es más, si de algo 
+        El precio de este curso es de 320€. Nunca hago ofertas, ni black fridays, ni rebajas, ni nada. Es más, si de algo 
         puedes estar seguro es que con el paso del tiempo el precio subirá, pero bajar, nunca. 
         </p>
 
@@ -501,31 +494,6 @@ export default function CodigoFuente() {
 
         <BuyButton />
 
-        <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl my-12">
-         Algunos testimonios no solicitados
-        </h2>
-        
-        <Image
-            src="/images/testimonio16.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
-        <Image
-            src="/images/testimonio17.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
-        <Image
-            src="/images/testimonio18.png"
-            alt="Descripción de la imagen"
-            width={600}
-            height={200}
-            className="rounded-sm"
-        />
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
          Curso: El código fuente de las matemáticas
