@@ -239,7 +239,7 @@ export default function CodigoFuente() {
         </h2> 
 
         <p>
-          el curso ahora lo harás a un precio de 320€, precio final. Este precio no bajará nunca. Tampoco hago ofertas, ni rebajas ni cosas del estilo. De hecho, ten por 
+          el curso ahora lo harás a un precio de 500€, precio final. Este precio no bajará nunca. Tampoco hago ofertas, ni rebajas ni cosas del estilo. De hecho, ten por 
           seguro que con el paso del tiempo, el precio subirá.
         </p>
 
@@ -446,7 +446,7 @@ export default function CodigoFuente() {
         </h3> 
 
         <p>
-        El precio de este curso es de 320€. Nunca hago ofertas, ni black fridays, ni rebajas, ni nada. Es más, si de algo 
+        El precio de este curso es de 500€. Nunca hago ofertas, ni black fridays, ni rebajas, ni nada. Es más, si de algo 
         puedes estar seguro es que con el paso del tiempo el precio subirá, pero bajar, nunca. 
         </p>
 

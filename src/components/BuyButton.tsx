@@ -4,7 +4,7 @@ const CUTOFF = new Date("2026-04-10T21:59:00.000Z").getTime();
 
 export default function BuyButton() {
   const now = Date.now();
-  const priceText = now <= CUTOFF ? "260 €" : "320 €";
+  const priceText = now <= CUTOFF ? "260 €" : "500 €";
 
   async function handleBuy() {
     try {
