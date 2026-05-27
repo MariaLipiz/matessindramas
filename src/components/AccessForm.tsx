@@ -60,9 +60,14 @@ export default function AccessForm() {
           Formulario de acceso
         </summary>
 
+        
+
         <form onSubmit={handleSubmit} className="space-y-8">
+
+        
+
           <div>
-            <label className="mt-10 mb-3 block text-xl font-bold text-neutral-900">
+            <label className=" mt-10 mb-3 block text-xl font-bold text-neutral-900">
               Contacto WhatsApp <span className="text-red-500">*</span>
             </label>
             <input
@@ -260,6 +265,13 @@ export default function AccessForm() {
               <option>No. Voy a asistir a la llamada de admisión.</option>
               <option>Sí, es posible que no pueda asistir</option>
             </select>
+          </div>
+
+          <div>
+            <label className="mb-3 block max-w-4xl text-2xl font-bold text-red-700">
+              Al pulsar Continuar te aparecerá un calendario. Debes RESERVAR tu reunión de admisión. De lo contrario, no atenderé tu solicitud <span className="text-red-500">*</span>
+            </label>
+            
           </div>
 
           {error && <p className="text-red-600">{error}</p>}

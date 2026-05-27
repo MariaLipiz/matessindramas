@@ -98,6 +98,8 @@ export default function Comunidad() {
           ti.
         </p>
 
+        <AccessForm />
+
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
           Te cuento cómo va la cosa
         </h2>
@@ -229,8 +231,11 @@ export default function Comunidad() {
           Desgranado y simplificado para que lo puedas aplicar inmediatamente sin
           ninguna explicación adicional.
         </p>
-        
 
+
+        
+        
+{/*
         <p className="font-bold my-12">
           3. Cada semana, una lección en directo. Semana que estás fuera, lección
           que te pierdes.
@@ -257,7 +262,7 @@ export default function Comunidad() {
           pierdes para siempre.
         </p>
         
-
+*/}
 
         
 
@@ -269,7 +274,7 @@ export default function Comunidad() {
 
 
         <p>
-        Esto es para los miembros que quieran conseguir resultados en tiempo
+        Esto es para los alumnos que quieran conseguir resultados en tiempo
           récord y/o tengan cerca exámenes que no pueden fallar.
         </p>
 
@@ -572,8 +577,7 @@ export default function Comunidad() {
 
         <p className="font-semibold">
         Vamos, que vas a tener acceso a todo el conocimiento que ha adquirido 
-        una persona con 10 años de experiencia, a una fracción del precio 
-        e invirtiendo una decima parte del esfuerzo que requeriría conseguirlo. 
+        una persona con 10 años de experiencia invirtiendo una decima parte del esfuerzo que requeriría conseguirlo. 
         </p>
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
