@@ -164,7 +164,7 @@ export default function Page() {
         Pues eso.
         </p>
 
-        Si quieres evitar que esto te pase, dejas tu email aquí:
+        <p>Si quieres evitar que esto te pase, dejas tu email aquí:</p>
 
         <NewsletterForm />
 
