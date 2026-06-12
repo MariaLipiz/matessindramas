@@ -94,7 +94,7 @@ export default function AccessForm() {
 
           <div>
             <label className="mb-3 block text-xl font-bold text-neutral-900">
-              ¿Qué estás estudiando? <span className="text-red-500">*</span>
+              ¿Qué movida estás estudiando? <span className="text-red-500">*</span>
             </label>
             <select
               required
@@ -151,18 +151,16 @@ export default function AccessForm() {
               <option value="" disabled>
               — Selecciona una —
               </option>
-              <option>Quiero aprobar una/varias asignaturas de matemáticas</option>
-              <option>Quiero dejar de ir perdido/a en clase</option>
-              <option>Quiero estudiar menos horas pero de forma más efectiva</option>
-              <option>Quiero aprender a resolver ejercicios/hacer demostraciones sin memorizarlo todo</option>
-              <option>Voy aprobando pero quiero mejorar mis notas</option>
-              <option>Quiero aprender matemáticas por hobby</option>
+              <option>Quiero quitarme un muerto de asignatura que no me deja vivir</option>
+              <option>Quiero dejar de ir mas perdido/a que un socialista en el registro mercantil</option>
+              <option>Quiero estudiar menos horas para poder dedicarme a la vida contemplativa</option>
+              <option>Voy aprobando pero quiero tener mas contentos a mis padres</option>
             </select>
           </div>
 
           <div>
             <label className="mb-3 block text-xl font-bold text-neutral-900">
-              ¿Cuál es tu objetivo de aquí a 3 meses – 1 año?{" "}
+              ¿Cuál es tu objetivo de aquí a 1 mes – 4 meses?{" "}
               <span className="text-red-500">*</span>
             </label>
             <select
@@ -174,12 +172,9 @@ export default function AccessForm() {
               <option value="" disabled>
               — Selecciona una —
               </option>
-              <option>Aprobar las asignaturas que llevo arrastrando</option>
-              <option>Aprobar el curso limpio/a</option>
-              <option>Entender por fin las asignaturas</option>
-              <option>Preparar bien los finales sin estudiar a ciegas</option>
-              <option>Aprender un método de estudio que me sirva para toda la carrera</option>
-              <option>Dejar de depender de memorizar ejercicios tipo</option>
+              <option>Aprobar y olvidarme de todo</option>
+              <option>Entender por fin de que va mi carrera</option>
+              <option>Dejar de memorizar como un papagallo</option>
             </select>
           </div>
 
@@ -206,8 +201,7 @@ export default function AccessForm() {
 
           <div>
             <label className="mb-3 block max-w-4xl text-xl font-bold text-neutral-900">
-              ¿Cuánto capital tienes disponible para invertir en la reunión en
-              caso de que te pueda ayudar a aprobar/mejorar en matemáticas?{" "}
+              ¿Confirmas que has leido y aceptas que el precio es de 500€/mes?{" "}
               <span className="text-red-500">*</span>
             </label>
             <select
@@ -219,17 +213,15 @@ export default function AccessForm() {
               <option value="" disabled>
               — Selecciona una —
               </option>
-              <option>Tengo 350€</option>
-              <option>Tengo de 350 a 800€</option>
-              <option>Tengo de 800 a 1200€</option>
-              <option>Tengo más de 1200€</option>
+              <option>Si, prometo no ser una sucia rata regateadora</option>
+              <option>No, quiero una rebaja porque he visto que otro lo hace mas barato (cierra esta página y no me escribas por favor)</option>
             </select>
           </div>
 
           <div>
             <label className="mb-3 block max-w-4xl text-xl font-bold text-neutral-900">
               En caso de decidir comenzar a trabajar juntos, ¿existe alguien más
-              que deba estar presente para tomar la decisión de hacerlo?{" "}
+              que deba estar presente para tomar la decisión?{" "}
               <span className="text-red-500">*</span>
             </label>
             <select
@@ -242,7 +234,6 @@ export default function AccessForm() {
               — Selecciona una —
               </option>
               <option>Sí, tengo que consultarlo con mis padres</option>
-              <option>Sí, tengo que consultarlo con mi pareja o algún familiar</option>
               <option>Sí, otra persona debería estar presente en la llamada</option>
               <option>No, puedo tomar la decisión por mí mismo/a. No necesito a nadie.</option>
             </select>
@@ -262,7 +253,7 @@ export default function AccessForm() {
               <option value="" disabled>
               — Selecciona una —
               </option>
-              <option>No. Voy a asistir a la llamada de admisión.</option>
+              <option>No, prometo que asistiré puntual.</option>
               <option>Sí, es posible que no pueda asistir</option>
             </select>
           </div>

@@ -245,7 +245,7 @@ export default function CodigoFuente() {
 
         <p>
           Todo el contenido se grabará en directo a finales de junio de 2026 a lo largo de 2/3 semanas y podrán asistir todas las 
-          personas que lo adquieran antes del 30 de abril de 2026. Todos los 
+          personas que lo hayan adquirido antes del 30 de abril de 2026. Todos los 
           asistentes podrán preguntar sus dudas al final de cada bloque.
         </p>
         <p>
