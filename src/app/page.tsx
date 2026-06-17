@@ -1,4 +1,4 @@
-import NewsletterForm from "@/components/NewsletterForm";
+import PrincipalNewsletterForm from "@/components/newsletter/PrincipalNewsletterForm";
 
 export default function Home() {
     return (
@@ -55,7 +55,7 @@ export default function Home() {
         <p className="mb-12">
         Dejas <span className="font-semibold">aquí abajo</span> tu correo.
         </p>
-        <NewsletterForm />
+        <PrincipalNewsletterForm />
 
         <h2 className="mt-12 mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl">
          Si te apuntas, también recibirás...
@@ -70,7 +70,7 @@ export default function Home() {
         <p className="mb-12">
         Y recuerda, <span className="font-semibold">día que estás fuera, consejo que te pierdes.</span>
         </p>
-        <NewsletterForm />
+        <PrincipalNewsletterForm />
   
         
       </section>

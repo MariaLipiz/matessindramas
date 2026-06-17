@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export default function ConfirmaTuEmail() {
   return (
@@ -16,7 +16,7 @@ export default function ConfirmaTuEmail() {
         </p>
 
         <p>
-          Esto sirve para verificar que la dirección de correo que has proporcionado es correcta.
+          Esto sirve para verificar que la dirección de correo que has proporcionado es correcta y no eres un bot ni nada de eso.
         </p>
 
         <p className="font-semibold">

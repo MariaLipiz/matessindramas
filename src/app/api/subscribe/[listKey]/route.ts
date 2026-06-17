@@ -1,7 +1,36 @@
 import { NextRequest, NextResponse } from "next/server";
 
-export async function POST(req: NextRequest) {
+export const runtime = "nodejs";
+
+const LIST_CONFIG = {
+  principal: {
+    listIdEnv: "CM_LIST_ID_PRINCIPAL",
+  },
+  nudesymas: {
+    listIdEnv: "CM_LIST_ID_NUDESYMAS",
+  },
+} as const;
+
+type ListKey = keyof typeof LIST_CONFIG;
+
+function isListKey(value: string): value is ListKey {
+  return value in LIST_CONFIG;
+}
+
+export async function POST(
+  req: NextRequest,
+  context: { params: Promise<{ listKey: string }> }
+) {
   try {
+    const { listKey } = await context.params;
+
+    if (!isListKey(listKey)) {
+      return NextResponse.json(
+        { ok: false, error: "Lista de correo no encontrada." },
+        { status: 404 }
+      );
+    }
+
     const { email, acceptedPrivacy } = await req.json();
 
     if (!acceptedPrivacy) {
@@ -21,6 +50,7 @@ export async function POST(req: NextRequest) {
     const normalizedEmail = email.trim().toLowerCase();
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
     if (!emailRegex.test(normalizedEmail)) {
       return NextResponse.json(
         { ok: false, error: "Introduce un email válido." },
@@ -29,14 +59,14 @@ export async function POST(req: NextRequest) {
     }
 
     const apiKey = process.env.CM_API_KEY;
-    const listId = process.env.CM_LIST_ID;
-
-    console.log("CM_API_KEY:", apiKey);
-    console.log("CM_LIST_ID:", listId);
+    const listId = process.env[LIST_CONFIG[listKey].listIdEnv];
 
     if (!apiKey || !listId) {
       return NextResponse.json(
-        { ok: false, error: "Faltan variables de entorno de Campaign Monitor." },
+        {
+          ok: false,
+          error: "Faltan variables de entorno de Campaign Monitor.",
+        },
         { status: 500 }
       );
     }
@@ -62,6 +92,7 @@ export async function POST(req: NextRequest) {
 
     if (!cmResponse.ok) {
       const errorText = await cmResponse.text();
+
       console.error("Campaign Monitor error:", cmResponse.status, errorText);
 
       return NextResponse.json(

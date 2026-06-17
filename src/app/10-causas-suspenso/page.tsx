@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import NewsletterForm from "@/components/NewsletterForm";
+import PrincipalNewsletterForm from "@/components/newsletter/PrincipalNewsletterForm";
 
 export const metadata: Metadata = {
   title: "10 razones por las que se suspende matemáticas | Mates sin dramas",
@@ -166,7 +166,7 @@ export default function Page() {
 
         <p>Si quieres evitar que esto te pase, dejas tu email aquí:</p>
 
-        <NewsletterForm />
+        <PrincipalNewsletterForm />
 
 
       </section>

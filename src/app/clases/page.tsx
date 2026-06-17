@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import Image from "next/image";
 import AccessForm from "@/components/AccessForm";
 
@@ -112,7 +112,7 @@ export default function Clases() {
 
 
         <p className="my-12">
-          Y no se hacen descuentos, ni se fraccionan los meses ni nada por el estilo.
+          Y no, no se hacen descuentos, ni se fraccionan los meses ni nada por el estilo.
         </p>
 
         <AccessForm />
@@ -240,17 +240,6 @@ export default function Clases() {
         tiempo.
         </p>
 
-        <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mb-12">
-        ¿Puedo dejarlo cuando quiera?
-        </h3>
-
-        <p>
-        Sí, puedes irte cuando quieras.
-        </p>
-
-        <p>
-        Recuerda que si te vas no podrás volver a entrar. Y no, no hacemos descansos en verano. 
-        </p>
 
         <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mb-12">
         ¿Cómo funciona? ¿Cómo me apunto?
