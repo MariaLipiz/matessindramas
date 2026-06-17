@@ -138,8 +138,9 @@ export default function BaseNewsletterForm({
             <span>
               Acepto la{" "}
               <Link href="/legal" className="text-sky-600 underline">
-                política de privacidad aunque no la haya leido
-              </Link>
+                política de privacidad
+              </Link>&nbsp;
+              <span className="line-through">aunque no la haya leido</span>
             </span>
           </label>
         </div>
