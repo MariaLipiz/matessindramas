@@ -22,7 +22,7 @@ export default function Home() {
         </ul>
 
         <p>
-        Aquí abajo para ver los <span className="font-semibold">NUDES</span> 👇
+        Aquí abajo para recibir los <span className="font-semibold">NUDES</span> 👇
         </p>
         
         <NudesYMasNewsletterForm />

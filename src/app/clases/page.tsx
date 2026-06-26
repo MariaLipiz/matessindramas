@@ -99,6 +99,13 @@ export default function Clases() {
             height={200}
             className="rounded-sm"
         />
+        <Image
+            src="/images/testimonio23.jpeg"
+            alt="Descripción de la imagen"
+            width={300}
+            height={200}
+            className="rounded-sm"
+        />
         
 
         <AccessForm />
