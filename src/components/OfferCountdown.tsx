@@ -63,7 +63,7 @@ export default function OfferCountdown({
           Esta oferta ya ha caducado.
         </p>
         <p className="text-base sm:text-xl">
-          Ya no puedes comprar este producto desde esta página.
+          Ya no puedes comprar este producto.
         </p>
       </div>
     );
