@@ -5,7 +5,7 @@
         
         <section className="section space-y-6">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl">
-            Tu petición para ver los NUDES ha sido <span className="bg-[#b0e4fc]">RECHAZADA</span> (continúa leyendo)👇
+            Tu petición ha sido <span className="bg-[#b0e4fc]">RECHAZADA</span> (continúa leyendo)👇
           </h1>
         </section>
   
