@@ -150,6 +150,22 @@ export default function Integrales() {
         </p>
 
         <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mt-12 mb-6">
+          Estoy en una academia, ¿Este curso vale para mí?
+        </h3>
+
+        <p>
+          Eso solo puedes decidirlo tu.
+        </p>
+
+        <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mt-12 mb-6">
+          Es muy caro / Tal profesor me cobra menos.
+        </h3>
+
+        <p>
+          Me parece bien.
+        </p>
+
+        <h3 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mt-12 mb-6">
           Estudio X carrera y me la trae floja el punto X del curso porque a mi
           no me entra, ¿Puedo comprar solo esa parte del curso?
         </h3>

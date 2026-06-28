@@ -8,7 +8,7 @@ function ExpiringCta() {
     <div className="space-y-6">
       <p className="text-xl sm:text-2xl">
         Una guía en la que destripo como resolver cualquier límite por turbio que sea para que nunca 
-        te vuelvan a pillar por sorpresa en un examen
+        te vuelvan a pillar por sorpresa
       </p>
 
       <ul className="list-disc pl-6 space-y-4">
