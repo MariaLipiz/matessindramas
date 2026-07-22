@@ -12,7 +12,7 @@ export default function Home() {
         Los años de universidad son demasiado buenos como para dejar que un examen, una asignatura o un profesor cabrón te los arruine.  
         </h2> */}
         <h2 className="mx-auto text-gray-900 text-xl font-semibold tracking-tighter sm:text-2xl lg:text-3xl mt-6">
-        Los años de universidad son demasiado buenos como para dejar que un examen, una asignatura o un profesor cabrón te los arruine.  
+        Los años de universidad son demasiado buenos como para dejar que las matemáticas, un examen o un profesor cabrón te los arruine.  
         </h2> 
       </section>
 
