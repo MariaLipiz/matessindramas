@@ -3,6 +3,8 @@ export default function Integrales() {
   return (
     <main>
       <section className="section space-y-8 mb-12 text-base sm:text-xl font-normal mt-4">
+
+     
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl mb-10">
           Es como... FAAAACK integrales
         </h1>

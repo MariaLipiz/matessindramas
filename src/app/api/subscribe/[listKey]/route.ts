@@ -9,6 +9,9 @@ const LIST_CONFIG = {
   nudesymas: {
     listIdEnv: "CM_LIST_ID_NUDESYMAS",
   },
+  mates: {
+    listIdEnv: "CM_LIST_ID_MATES",
+  },
 } as const;
 
 type ListKey = keyof typeof LIST_CONFIG;
