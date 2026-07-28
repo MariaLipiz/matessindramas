@@ -109,22 +109,22 @@ export default function Integrales() {
         */}
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-16">
-        99 pavos precio final <span className="line-through">
+        150 pavos precio final <span className="line-through">
     (de momento)</span> 
         </h2>
 
         <p>
-          Este curso cuesta 99 pavos (€) hasta que me arrepienta y decida subirlo (bajarlo jamas, que esto no es el Zara con las rebajas).
+          Este curso cuesta 150 pavos (€) hasta que me arrepienta y decida subirlo (bajarlo jamas, que esto no es el Zara con las rebajas).
         </p>
 
 
         <a
-            href="https://buy.stripe.com/bJe14nfG88xKdkF6rwdEs07"
+            href="https://buy.stripe.com/fZueVdeC415i1BX8zEdEs0a"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95"
         >
-            Comprar ahora el curso de integrales por 99€ <span className="line-through">
+            Comprar ahora el curso de integrales por 150€ <span className="line-through">
             (de momento)</span>
         </a>
 
@@ -227,12 +227,12 @@ export default function Integrales() {
 
        
         <a
-            href="https://buy.stripe.com/bJe14nfG88xKdkF6rwdEs07"
+            href="https://buy.stripe.com/fZueVdeC415i1BX8zEdEs0a"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95"
         >
-            Comprar ahora el curso de integrales por 99€ <span className="line-through">
+            Comprar ahora el curso de integrales por 150€ <span className="line-through">
             (de momento)</span>
         </a>
 
