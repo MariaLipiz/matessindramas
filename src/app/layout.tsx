@@ -18,8 +18,8 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Mates Sin Dramas",
-  description: "Aprueba mates en la universidad sin llorar.",
+  title: "Mates sin Dramas",
+  description: "Aprueba en la carrera de mates (mientras entiendes lo que estudias)",
   keywords: [
     "Aprueba matemáticas en la uni",
     "Método para aprobar matemáticas",
@@ -28,15 +28,15 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Mates Sin Dramas",
+      name: "Mates sin Dramas",
       url: "https://www.matessindramas.com",
     },
   ],
   robots: "index, follow",
   openGraph: {
-    title: "Mates Sin Dramas | Aprueba Matemáticas sin llorar",
+    title: "Mates Sin Dramas",
     description:
-      "Aprueba mates en la universidad sin llorar.",
+      "Aprueba en la carrera de mates (mientras entiendes lo que estudias)",
     url: "https://matessindramas.com",
     siteName: "Mates Sin Dramas",
     images: [
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mates Sin Dramas",
     description:
-      "Aprueba mates en la universidad sin llorar. Métodos serios, cero dramas.",
+      "Aprueba en la carrera de mates (mientras entiendes lo que estudias)",
     images: ["https://matessindramas.com/og.jpg"],
     creator: "@matessindramas",
   },
@@ -97,18 +97,18 @@ export default function RootLayout({
               url: "https://www.matessindramas.com",
               logo: "https://www.matessindramas.com/og.png",
               description:
-                "Aprueba matemáticas en la uni sin llorar. Métodos serios, cero dramas.",
+                "Aprueba en la carrera de mates (mientras entiendes lo que estudias)",
               sameAs: [
                 "https://twitter.com/matessindramas",
                 "https://www.instagram.com/matessindramas",
               ],
               founder: {
                 "@type": "Person",
-                name: "María Lipiz",
+                name: "María (MatesSinDramas)",
               },
               contactPoint: {
                 "@type": "ContactPoint",
-                email: "marialipiz@matessindramas.com",
+                email: "maria@matessindramas.es",
                 contactType: "customer support",
                 availableLanguage: ["Spanish"],
               },
