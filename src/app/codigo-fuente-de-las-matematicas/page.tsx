@@ -239,7 +239,7 @@ export default function CodigoFuente() {
         </h2> 
 
         <p>
-          el curso ahora lo harás a un precio de 500€, precio final. Este precio no bajará nunca. Tampoco hago ofertas, ni rebajas ni cosas del estilo. De hecho, ten por 
+          el curso ahora lo harás a un precio de 650€, precio final. Este precio no bajará nunca. Tampoco hago ofertas, ni rebajas ni cosas del estilo. De hecho, ten por 
           seguro que con el paso del tiempo, el precio subirá.
         </p>
 
@@ -446,7 +446,7 @@ export default function CodigoFuente() {
         </h3> 
 
         <p>
-        El precio de este curso es de 500€. Nunca hago ofertas, ni black fridays, ni rebajas, ni nada. Es más, si de algo 
+        El precio de este curso es de 650€. Nunca hago ofertas, ni black fridays, ni rebajas, ni nada. Es más, si de algo 
         puedes estar seguro es que con el paso del tiempo el precio subirá, pero bajar, nunca. 
         </p>
 
@@ -474,25 +474,6 @@ export default function CodigoFuente() {
         <p>
         Una vez comprado podrás acceder a el hasta el día del juicio final, es decir, que podrás verlo 100 veces si eso es lo que te mola.
         </p>
-
-
-        <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
-         Curso: El código fuente de las matemáticas
-        </h2> 
-
-        <ul className="list-disc pl-12 space-y-4 ">
-          <li>
-           Impuestos incluidos
-          </li>
-
-          <li>
-            Pago seguro con tarjeta de crédito Visa o Mastercard, Apple Pay y Google Pay.
-          </li>
-          
-
-        </ul>
-
-        <BuyButton />
 
 
         <h2 className="mx-auto text-gray-900 text-2xl font-bold tracking-tighter sm:text-3xl lg:text-4xl mt-12">
