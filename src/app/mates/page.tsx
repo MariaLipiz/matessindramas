@@ -27,6 +27,9 @@ export default function Home() {
         El profesor viene a clase a hacer de todo menos explicar y todo se da por sabido. -Esto ya se vio el año pasado-.
         </p>
         <p>
+        Ves que entiendes toda la teoría y aun así, cuanto tienes un ejercicio delante, no sabes ni por donde pillarlo. 
+        </p>
+        <p>
         Los exámenes son una ida de olla y aparecen cosas que ni has visto ni nadie sabe de donde han salido. 
         </p>
         <p>
