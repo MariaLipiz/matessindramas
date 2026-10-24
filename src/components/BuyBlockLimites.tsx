@@ -23,7 +23,7 @@ export default function BuyBlockLimites() {
 
       {!expired && (
         <Link
-          href="https://buy.stripe.com/cNi5kD1Pi9BO4O98zEdEs08"
+          href="https://matessindramas.getyesloop.com/f/matessindramas/buy/arwJbx" 
           className="inline-block rounded-lg bg-[#0B1633] px-8 py-4 text-xl font-semibold text-white transition hover:opacity-95"
         >
           Comprar ahora la guía por 9 €
